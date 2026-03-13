@@ -26,7 +26,7 @@ const About = () => {
                         Quality Education is our top priority at Medtek College Hayward. We offer a comprehensive curriculum designed to cover a wide range of relevant topics, including clinical skills, patient care, specialized procedures, and professional development. Our courses are regularly updated to incorporate the latest industry trends and evidence-based practices, ensuring that Sterile Technicians receive the most up-to-date education.
                     </Card.Text>
                     <Card.Text>
-                        Flexibility is key, as we understand the demanding schedules of working Sterile Technician. Medtek College Hayward provides flexible learning options, allowing Sterile Technicians to access educational materials at their convenience. 
+                        Flexibility is key, as we understand the demanding schedules of working Sterile Technician. Medtek College Hayward provides flexible learning options, allowing Sterile Processing to access educational materials at their convenience. 
                     </Card.Text>
                     <Card.Text>
                         At Medtek College Haywards, we foster a supportive and collaborative learning environment. We believe in the power of community and provide opportunities for Sterile Technicians to connect, engage, and share insights. Our platform facilitates discussions and networking, enabling Sterile Technician to learn from each other and build professional connections.

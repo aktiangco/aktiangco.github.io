@@ -17,7 +17,7 @@ const Home = () => {
       <div>
         <Card className="container" style={cardStyle}>
           <Card.Body>
-            <Card.Title className="font-weight-bold"><h1>Welcome to Nurse Plus</h1></Card.Title>
+            <Card.Title className="font-weight-bold"><h1>Welcome to MedTek College Hayward</h1></Card.Title>
             <br />
             <Card.Text>
               <Image
@@ -27,7 +27,7 @@ const Home = () => {
               />
             </Card.Text>
             <Card.Text>
-              In order to facilitate the improvement of nurses' skills and provide them with additional educational opportunities, a class is being organized. The purpose of this class is to help nurses enhance their abilities and expand their knowledge.
+              In order to facilitate the improvement of Sterile Processing Technician skills and provide them with additional educational opportunities, a class is being organized. The purpose of this class is to help Sterile Processing Technician enhance their abilities and expand their knowledge.
             </Card.Text>
             <Card.Text>
               <Link to="/gallery"><button className='button'>Sterilizers</button></Link>
