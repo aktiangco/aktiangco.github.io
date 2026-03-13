@@ -12,11 +12,6 @@ const Contact = () => {
     message: ''
   });
 
-  const cardStyle = {
-    color: 'white',
-    backgroundColor: 'cornflowerblue',
-    border: '1px black solid'
-  };
 
   const handleChange = (e) => {
     setFormData({
@@ -45,9 +40,10 @@ const Contact = () => {
 
   return (
     <div>
-      <Card className="container" style={cardStyle}>
+      <Card className="container custom-card">
         <Card.Body>
-          <Card.Title><h1>Contact / Survey</h1></Card.Title>
+          <Card.Title><h1>Contact</h1></Card.Title>
+          <Card.Text>If you have any questions, feel fill in the form bellow.</Card.Text>
 
           <Form onSubmit={handleSubmit}>
 
@@ -83,7 +79,7 @@ const Contact = () => {
             </Form.Group>
 
             <Button variant="light" type="submit">
-              Send Survey
+              Send Feedback
             </Button>
 
           </Form>

@@ -1,21 +1,33 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
+import profile from '../assets/images/me.png';
 
 const About = () => {
-    const cardStyle = {
-        color: 'white',
-        backgroundColor: 'cornflowerblue',
-        border: '1px black solid'
-      };
 
     return (
         <div>
             <div>
-            <Card className="container" style={cardStyle}>
+            <Card className="container custom-card">
                 <Card.Body>
                     <Card.Title className="font-weight-bold"><h1>About Me</h1></Card.Title>
-                    <br />    
+                    <br />   
+                    <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
+                        <img
+                            src={profile}
+                            alt="Allan Kris Tiangco"
+                            style={{
+                            width: "120px",
+                            height: "120px",
+                            borderRadius: "50%",
+                            objectFit: "cover"
+                            }}
+                        />
+                        <div>
+                            <h2>Allan Kris Tiangco</h2>
+                            <h4>Medtek College Hayward Student</h4>
+                        </div>
+                    </div>
                     <Card.Text>
                         I am a dedicated and reliable professional with over 20 years of experience working in healthcare logistics, supply chain, and fast-paced operational environments. Currently working as a Distribution Clerk at UCSF Benioff Children's Hospital Oakland, I specialize in inventory management, supply distribution, and supporting medical teams to ensure departments have the resources they need to provide quality patient care.
                     </Card.Text>

@@ -4,8 +4,6 @@ import { Instagram, Facebook, Linkedin, Github } from "react-bootstrap-icons";
 
 const Footer = () => {
 
-
-
     return (
         <div className='footer' style={{ display: 'flex', justifyContent: 'space-between' }}>
             <div>

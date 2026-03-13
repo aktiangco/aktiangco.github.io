@@ -38,7 +38,10 @@ const NavBar = () => {
               className="nav-item active"
             >
               <NavDropdown.Item className="nav-item active" style={dropdownStyle}>
-              <Link className="nav-item" style={linkStyle} to="/Steam">
+                <Link className="nav-item" style={linkStyle} to="/Gallery">
+                  <button className="nav-link rounded">Sterilization</button>
+                </Link>
+                <Link className="nav-item" style={linkStyle} to="/Steam">
                   <button className="nav-link rounded">Steam</button>
                 </Link>
                 <Link className="nav-item" style={linkStyle} to="/Eo">

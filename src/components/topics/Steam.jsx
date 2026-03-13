@@ -1,65 +1,92 @@
 import React, { } from 'react';
 import Card from 'react-bootstrap/Card';
-import { Link } from 'react-router-dom';
-import Image from 'react-bootstrap/Image';
-import SteamImage from '../../assets/422.jpg';
+import profile from '../../assets/images/logo.png';
 
 const Steam = () => {
-    const linkStyle = {
-        textDecoration: 'none',
-        color: 'black'
-      };
-
-    const cardStyle = {
-        color: 'white',
-        backgroundColor: 'cornflowerblue',
-        border: '1px black solid',
-        height: '100%'
-    };
 
     return (
         <div>
-             <Card className="container" style={cardStyle}>
+             <Card className="container custom-card" >
                 <Card.Body style={{ display: 'center' , height: "100%" }}>
                     <Card.Title className="font-weight-bold"><h1>Steam Sterilizer</h1></Card.Title> 
                     <Card.Text >
-                        <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+                         <div className="section-bubble">
+                            <img
+                                src={profile}
+                                alt="Allan Kris Tiangco"
+                               className="section-image"
+                            />
+                            <div>
+                                <h2>Facts</h2>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
                         </div>
                     </Card.Text>
-                    <Card.Text  style={{ display: 'flex' , height: "100%", justifyContent: 'space-around', border: "1px black solid"}}>
-                        <div>
-                            paragraph
+                    <Card.Text >
+                         <div className="section-bubble">
+                            <div>
+                                <h2>Cycle</h2>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <img
+                                src={profile}
+                                alt="Allan Kris Tiangco"
+                               className="section-image"
+                            />
                         </div>
-                        <div>
-                        <Image
-                style={{ width: '100%', height: '400px', objectFit: 'cover', borderRadius: '10px', border: '1px black solid' }}
-                src={SteamImage}
-                fluid
-              />
+                    </Card.Text>
+                    <Card.Text >
+                        <div className="section-bubble">
+                             <img
+                                src={profile}
+                                alt="Allan Kris Tiangco"
+                               className="section-image"
+                            />
+                            <div>
+                                <h2>Loading and Unloading</h2>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
                         </div>
-
-                    </Card.Text>   
-                    <Card.Text>
-                        cycle
                     </Card.Text>
-                    <Card.Text>
-                       preparation
+                    <Card.Text >
+                        <div className="section-bubble">
+                            <div>
+                                <h2>Wrapper to use</h2>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <img
+                                src={profile}
+                                alt="Allan Kris Tiangco"
+                               className="section-image"
+                            />
+                        </div>
                     </Card.Text>
-                    <Card.Text>
-                        loading
+                    <Card.Text >
+                        <div className="section-bubble">
+                            <img
+                                src={profile}
+                                alt="Allan Kris Tiangco"
+                               className="section-image"
+                            />
+                            <div>
+                                <h2>Pros and Cons</h2>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
                     </Card.Text>
-                    <Card.Text>
-                        monitoring
-                    </Card.Text>
-                    <Card.Text>
-                        safety precaution
-                    </Card.Text>
-                    <Card.Text>
-                        extra
-                    </Card.Text> 
-                    <Card.Text>
-                    <Link to="/contact"><button className="button">Contact us</button></Link> today to join Medtek College Hayward and take your career to the next level!
-                    </Card.Text>
+                    <Card.Text >
+                        <div className="section-bubble">
+                            <div>
+                                <h2>How to test Sterilizer</h2>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <img
+                                src={profile}
+                                alt="Allan Kris Tiangco"
+                               className="section-image"
+                            />
+                        </div>
+                        </Card.Text>
                 </ Card.Body>
             </ Card> 
         </div>

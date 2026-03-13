@@ -26,13 +26,13 @@ const App = () => (
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="*" element={<Error />} />
-        <Route path="/Dryheat" element={<Dryheat />} />
-        <Route path="/Eo" element={<Eo />} /> 
-        <Route path="/Ltgp" element={<Ltgp />} />
-        <Route path="/Ozone" element={<Ozone />} />
-        <Route path='/Steam' element={<Steam />} />
-        <Route path="/Vpro" element={<Vpro />} />
-        <Route path="/Iuss" element={<Iuss />} />
+        <Route path="/dryheat" element={<Dryheat />} />
+        <Route path="/eo" element={<Eo />} /> 
+        <Route path="/ltgp" element={<Ltgp />} />
+        <Route path="/ozone" element={<Ozone />} />
+        <Route path='/steam' element={<Steam />} />
+        <Route path="/vpro" element={<Vpro />} />
+        <Route path="/iuss" element={<Iuss />} />
       </Routes>
     </div>
     <Footer />

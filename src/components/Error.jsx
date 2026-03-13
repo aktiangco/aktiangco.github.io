@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image';
-import error from '../assets/404.jpg';
+import error from '../assets/images/404.jpg';
 
 function Error() {
     return (
