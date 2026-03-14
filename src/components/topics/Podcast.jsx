@@ -43,19 +43,16 @@ function Podcast() {
               </div>
             </div>
                       <Card.Text>
-                          paragraph 1
+                      The culture within the Operating Room (OR) and the Sterile Processing Department (SPD) is built on teamwork, communication, and a shared commitment to patient safety. Although these departments perform different roles, they are closely connected through the instruments used during surgical procedures. The OR depends on SPD to properly clean, inspect, assemble, and sterilize surgical instruments so they are safe for use. At the same time, SPD relies on the OR staff to handle instruments carefully after procedures and return them for proper reprocessing. A strong culture of respect and collaboration between these departments helps ensure that surgical instruments are always safe and ready when needed.
                       </Card.Text>
                       <Card.Text>
-                          paragraph 2
+                      Cross-training between OR and SPD staff can significantly improve understanding and cooperation between the two departments. When SPD technicians learn about surgical procedures and how instruments are used in the operating room, they gain a better understanding of how important each instrument is and how it must function during surgery. Similarly, when OR staff learn about the sterilization and reprocessing steps performed in SPD, they develop a greater appreciation for the time, care, and attention required to properly prepare surgical instruments. This shared knowledge strengthens teamwork and improves communication between both departments.
                       </Card.Text>
                       <Card.Text>
-                          paragraph 3
+                      Cross-training also plays an important role in protecting patients by helping maintain instrument safety and quality. When both departments understand each other's processes, they can identify potential issues earlier, such as missing instruments, damaged equipment, or improper handling. This cooperation helps prevent errors, reduces delays in surgery, and ensures that sterile instruments are available when needed. By working together and supporting one another through cross-training, the OR and SPD create a safer environment for both patients and healthcare professionals.
                       </Card.Text>
                       <Card.Text>
-                          paragraph 4
-                      </Card.Text>
-                      <Card.Text>
-                          paragraph 5
+                          - Report by Allan Tiangco
                       </Card.Text>
           </Card.Body>
         </Card>

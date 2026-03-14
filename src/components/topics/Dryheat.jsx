@@ -3,6 +3,10 @@ import Card from "react-bootstrap/Card";
 import profile from "../../assets/images/logo.png";
 import machine from "../../assets/images/dryheat-machine.png"
 import cycle from "../../assets/images/dryheat-cycle.png"
+import loading from "../../assets/images/loading.png"
+import wrapper from "../../assets/images/drytray.jpg"
+import procon from "../../assets/images/pro-con.png"
+import bitest from "../../assets/images/dry-bi.png"
 
 const Dryheat = () => {
   return (
@@ -45,7 +49,7 @@ const Dryheat = () => {
           <Card.Text>
             <div className="section-bubble">
               <img
-                src={profile}
+                src={loading}
                 className="section-image"
               />
               <div>
@@ -67,7 +71,7 @@ const Dryheat = () => {
                 nisi ut aliquip ex ea commodo consequat.
               </div>
               <img
-                src={profile}
+                src={wrapper}
                 className="section-image"
               />
             </div>
@@ -75,7 +79,7 @@ const Dryheat = () => {
           <Card.Text>
             <div className="section-bubble">
               <img
-                src={profile}
+                src={procon}
                 className="section-image"
               />
               <div>
@@ -97,7 +101,7 @@ const Dryheat = () => {
                 nisi ut aliquip ex ea commodo consequat.
               </div>
               <img
-                src={profile}
+                src={bitest}
                 className="section-image"
               />
             </div>
