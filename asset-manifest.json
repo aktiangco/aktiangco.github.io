@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/spd-sterilizers/static/css/main.f43746e3.css",
-    "main.js": "/spd-sterilizers/static/js/main.3e910272.js",
-    "static/media/me.png": "/spd-sterilizers/static/media/me.b2f289c194fd9295cd63.png",
-    "static/media/ChatGPT.png": "/spd-sterilizers/static/media/ChatGPT.47193fab546b53ca1f1c.png",
-    "static/media/or-spd.png": "/spd-sterilizers/static/media/or-spd.c3bfe7461c6c3578b6a4.png",
-    "static/media/steam-cycle.png": "/spd-sterilizers/static/media/steam-cycle.7da34c11e2f4ef677972.png",
-    "static/media/ltgp-cycle.png": "/spd-sterilizers/static/media/ltgp-cycle.ea1526f82ed3bcda2404.png",
-    "static/media/dryheat-cycle.png": "/spd-sterilizers/static/media/dryheat-cycle.614ba7209d8806f3bc94.png",
-    "static/media/eo-cycle.png": "/spd-sterilizers/static/media/eo-cycle.71614cba6b80d9827c18.png",
-    "static/media/ozone-machine.png": "/spd-sterilizers/static/media/ozone-machine.ed3d1228743fb0767cd7.png",
-    "static/media/dryheat-machine.png": "/spd-sterilizers/static/media/dryheat-machine.8e926281dc064e9b75b8.png",
-    "static/media/eo-machine.png": "/spd-sterilizers/static/media/eo-machine.5a045bbdc1cdf0a181d5.png",
-    "static/media/ltgp-machine.png": "/spd-sterilizers/static/media/ltgp-machine.ce92af5283bb1b2c0151.png",
-    "static/media/iuss-machine.png": "/spd-sterilizers/static/media/iuss-machine.24149164fe5f37148556.png",
-    "static/media/404.jpg": "/spd-sterilizers/static/media/404.31898163934ab6672d1b.jpg",
-    "static/media/steam-machine.png": "/spd-sterilizers/static/media/steam-machine.d1e34ef58ce7bb888f9e.png",
-    "index.html": "/spd-sterilizers/index.html",
-    "main.f43746e3.css.map": "/spd-sterilizers/static/css/main.f43746e3.css.map",
-    "main.3e910272.js.map": "/spd-sterilizers/static/js/main.3e910272.js.map"
+    "main.css": "/static/css/main.f43746e3.css",
+    "main.js": "/static/js/main.7b9087bc.js",
+    "static/media/me.png": "/static/media/me.b2f289c194fd9295cd63.png",
+    "static/media/ChatGPT.png": "/static/media/ChatGPT.47193fab546b53ca1f1c.png",
+    "static/media/or-spd.png": "/static/media/or-spd.c3bfe7461c6c3578b6a4.png",
+    "static/media/steam-cycle.png": "/static/media/steam-cycle.7da34c11e2f4ef677972.png",
+    "static/media/ltgp-cycle.png": "/static/media/ltgp-cycle.ea1526f82ed3bcda2404.png",
+    "static/media/dryheat-cycle.png": "/static/media/dryheat-cycle.614ba7209d8806f3bc94.png",
+    "static/media/eo-cycle.png": "/static/media/eo-cycle.71614cba6b80d9827c18.png",
+    "static/media/ozone-machine.png": "/static/media/ozone-machine.ed3d1228743fb0767cd7.png",
+    "static/media/dryheat-machine.png": "/static/media/dryheat-machine.8e926281dc064e9b75b8.png",
+    "static/media/eo-machine.png": "/static/media/eo-machine.5a045bbdc1cdf0a181d5.png",
+    "static/media/ltgp-machine.png": "/static/media/ltgp-machine.ce92af5283bb1b2c0151.png",
+    "static/media/iuss-machine.png": "/static/media/iuss-machine.24149164fe5f37148556.png",
+    "static/media/404.jpg": "/static/media/404.31898163934ab6672d1b.jpg",
+    "static/media/steam-machine.png": "/static/media/steam-machine.d1e34ef58ce7bb888f9e.png",
+    "index.html": "/index.html",
+    "main.f43746e3.css.map": "/static/css/main.f43746e3.css.map",
+    "main.7b9087bc.js.map": "/static/js/main.7b9087bc.js.map"
   },
   "entrypoints": [
     "static/css/main.f43746e3.css",
-    "static/js/main.3e910272.js"
+    "static/js/main.7b9087bc.js"
   ]
 }
