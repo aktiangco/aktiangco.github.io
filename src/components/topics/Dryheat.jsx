@@ -1,11 +1,11 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import machine from "../../assets/images/dryheat-machine.png"
-import cycle from "../../assets/images/dryheat-cycle.png"
+import machine from "../../assets/images/dryheat/dryheat-machine.png"
+import cycle from "../../assets/images/dryheat/dryheat-cycle.png"
 import loading from "../../assets/images/loading.png"
-import wrapper from "../../assets/images/drytray.jpg"
+import wrapper from "../../assets/images/dryheat/drytray.jpg"
 import procon from "../../assets/images/pro-con.png"
-import bitest from "../../assets/images/dry-bi.png"
+import bitest from "../../assets/images/dryheat/dry-bi.png"
 
 const Dryheat = () => {
   return (

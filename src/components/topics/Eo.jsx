@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import profile from "../../assets/images/logo.png";
-import machine from "../../assets/images/eo-machine.png"
-import cycle from "../../assets/images/eo-cycle.png"
+import machine from "../../assets/images/eo/eo-machine.png"
+import cycle from "../../assets/images/eo/eo-cycle.png"
 
 const Eo = () => {
   return (

@@ -1,18 +1,17 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import profile from "../../assets/images/logo.png";
-import machine from "../../assets/steam/steam-machine.png";
-import cycle from "../../assets/steam/steam-cycle.png";
-import gravity from "../../assets/steam/steam-gravity.png";
-import dynamic from "../../assets/steam/steam-dynamic.png";
-import loading from "../../assets/steam/steam-loading.png";
-import load from "../../assets/steam/steam-load.png";
-import unloading from "../../assets/steam/steam-unloading.png";
-import wrapper from "../../assets/steam/steam-wrapper.png";
-import rigid from "../../assets/steam/wrapper.png";
-import monitor from "../../assets/steam/steam-monitor.png";
-import ci from "../../assets/steam/steam-autoclave.png";
-import bi from "../../assets/steam/steam-bi.png";
+import machine from "../../assets/images/steam/steam-machine.png";
+import cycle from "../../assets/images/steam/steam-cycle.png";
+import gravity from "../../assets/images/steam/steam-gravity.png";
+import dynamic from "../../assets/images/steam/steam-dynamic.png";
+import loading from "../../assets/images/steam/steam-loading.png";
+import load from "../../assets/images/steam/steam-load.png";
+import unloading from "../../assets/images/steam/steam-unloading.png";
+import wrapper from "../../assets/images/steam/steam-wrapper.png";
+import rigid from "../../assets/images/steam/wrapper.png";
+import monitor from "../../assets/images/steam/steam-monitor.png";
+import ci from "../../assets/images/steam/steam-autoclave.png";
+import bi from "../../assets/images/steam/steam-bi.png";
 import procon from "../../assets/images/pro-con.png";
 
 const Steam = () => {
@@ -591,7 +590,7 @@ const Steam = () => {
                 <br></br>
                 <br></br>
                 <div>
-                  <h4 className="underline-title">
+                  <h4 style={{ textDecoration: "underline" }}>
                     2. Chemical Indicator (CI) - Every Package
                   </h4>
                   <h6>

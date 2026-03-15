@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
-import profile from "../assets/profile/me.png";
+import profile from "../assets/images/profile/me.png";
 
 const About = () => {
   return (

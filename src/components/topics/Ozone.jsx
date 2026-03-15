@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import profile from "../../assets/images/logo.png";
-import machine from "../../assets/images/ozone-machine.png"
-import cycle from "../../assets/images/ltgp-cycle.png"
+import machine from "../../assets/images/ozone/ozone-machine.png"
+import cycle from "../../assets/images/ltgp/ltgp-cycle.png"
 
 const Ozone = () => {
   return (

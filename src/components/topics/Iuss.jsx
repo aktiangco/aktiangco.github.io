@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import profile from "../../assets/images/logo.png";
-import machine from "../../assets/images/iuss-machine.png"
-import cycle from "../../assets/steam/steam-cycle.png";
+import machine from "../../assets/images/iuss/iuss-machine.png"
+import cycle from "../../assets/images/steam/steam-cycle.png";
 
 const Iuss = () => {
   return (

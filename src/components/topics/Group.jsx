@@ -1,13 +1,13 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
-import group from "../../assets/profile/group.png";
-import me from "../../assets/profile/me.png";
-import adiel from "../../assets/profile/adiel.png";
-import vinessa from "../../assets/profile/vinessa.png";
-import john from "../../assets/profile/john.png";
-import cesar from "../../assets/profile/cesar.png";
-import eric from "../../assets/profile/eric.png";
+import group from "../../assets/images/profile/group.png";
+import me from "../../assets/images/profile/me.png";
+import adiel from "../../assets/images/profile/adiel.png";
+import vinessa from "../../assets/images/profile/vinessa.png";
+import john from "../../assets/images/profile/john.png";
+import cesar from "../../assets/images/profile/cesar.png";
+import eric from "../../assets/images/profile/eric.png";
 
 const Group = () => {
   return (
