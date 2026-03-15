@@ -10,14 +10,14 @@ const Home = () => {
       <Card className="container custom-card">
         <Card.Body>
           <Card.Title className="font-weight-bold">
-            <h1>Welcome to Allan's Project</h1>
+            <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>Welcome to Allan's Project</h1>
           </Card.Title>
           <br />
           <Card.Text>
             <Image
               style={{
                 width: "100%",
-                height: "600px",
+                height: "450px",
                 objectFit: "cover",
                 borderRadius: "10px",
                 border: "1px black solid",

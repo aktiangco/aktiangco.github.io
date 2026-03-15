@@ -10,8 +10,9 @@ const Ltgp = () => {
       <Card className="container custom-card">
         <Card.Body style={{ display: "center", height: "100%" }}>
           <Card.Title className="font-weight-bold">
-            <h1>Low-Temp Gas Plasma (LTGP) Sterilizer</h1>
+            <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>Low-Temp Gas Plasma (LTGP) Sterilizer</h1>
           </Card.Title>
+          <br></br>
           <Card.Text>
             <div className="section-bubble">
               <img

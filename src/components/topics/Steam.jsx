@@ -20,11 +20,18 @@ const Steam = () => {
       <Card className="container custom-card">
         <Card.Body style={{ display: "center", height: "100%" }}>
           <Card.Title className="font-weight-bold">
-            <h1>Steam Sterilizer</h1>
+            <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>Steam Sterilizer</h1>
           </Card.Title>
+          <br></br>
           <Card.Text>
             <div className="section-bubble">
-              <img src={machine} className="section-image" />
+              <img src={machine} className="section-image" style={{
+                width: "300px",
+                height: "350px",
+                borderRadius: "10%",
+                objectFit: "cover",
+              }}
+              />
               <div>
                 <h2>Facts About Steam Sterilizers</h2>
                 <ul>
@@ -206,8 +213,8 @@ const Steam = () => {
                   src={gravity}
                   className="stack-image"
                   style={{
-                    width: "400px",
-                    height: "80%",
+                    width: "385px",
+                    height: "300px",
                     borderRadius: "10%",
                     objectFit: "cover",
                   }}
@@ -222,8 +229,8 @@ const Steam = () => {
                   src={dynamic}
                   className="stack-image"
                   style={{
-                    width: "400px",
-                    height: "80%",
+                    width: "385px",
+                    height: "300px",
                     borderRadius: "10%",
                     objectFit: "cover",
                   }}
@@ -238,8 +245,8 @@ const Steam = () => {
                   src={cycle}
                   className="stack-image"
                   style={{
-                    width: "400px",
-                    height: "80%",
+                    width: "385px",
+                    height: "300px",
                     borderRadius: "10%",
                     objectFit: "cover",
                   }}
@@ -483,7 +490,7 @@ const Steam = () => {
                   src={rigid}
                   className="section-image"
                   style={{
-                    width: "400px",
+                    width: "500px",
                     height: "50%",
                     borderRadius: "10%",
                     objectFit: "cover",
@@ -641,36 +648,33 @@ const Steam = () => {
                   src={monitor}
                   className="stack-image"
                   style={{
-                    width: "300px",
-                    height: "50%",
+                    width: "385px",
+                    height: "300px",
                     borderRadius: "10%",
                     objectFit: "cover",
                   }}
                 />
                 <br></br>
                 <br></br>
-                <br></br>
-                <br></br>
+        
                 <img
                   src={ci}
                   className="stack-image"
                   style={{
-                    width: "200px",
-                    height: "50%",
+                    width: "350px",
+                    height: "350px",
                     borderRadius: "10%",
                     objectFit: "cover",
                   }}
                 />
-                <br></br>
-                <br></br>
                 <br></br>
                 <br></br>
                 <img
                   src={bi}
                   className="stack-image"
                   style={{
-                    width: "200px",
-                    height: "50%",
+                    width: "385px",
+                    height: "300px",
                     borderRadius: "10%",
                     objectFit: "cover",
                   }}

@@ -50,7 +50,7 @@ const Contact = () => {
       <Card className="container custom-card">
         <Card.Body>
           <Card.Title>
-            <h1>Contact</h1>
+            <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>Contact</h1>
           </Card.Title>
           <Card.Text>
             If you have any questions, feel fill in the form bellow.

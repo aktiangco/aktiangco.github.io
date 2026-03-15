@@ -10,8 +10,9 @@ const Eo = () => {
       <Card className="container custom-card">
         <Card.Body style={{ display: "center", height: "100%" }}>
           <Card.Title className="font-weight-bold">
-            <h1>ETHYLENE OXIDE Sterilizer</h1>
+            <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>ETHYLENE OXIDE Sterilizer</h1>
           </Card.Title>
+          <br></br>
           <Card.Text>
             <div className="section-bubble">
               <img

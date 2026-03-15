@@ -13,8 +13,9 @@ const Dryheat = () => {
       <Card className="container custom-card">
         <Card.Body style={{ display: "center", height: "100%" }}>
           <Card.Title className="font-weight-bold">
-            <h1>Dry Heat Sterilizer</h1>
+            <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>Dry Heat Sterilizer</h1>
           </Card.Title>
+          <br></br>
           <Card.Text>
             <div className="section-bubble">
               <img

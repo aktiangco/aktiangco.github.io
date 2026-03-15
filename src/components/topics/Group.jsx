@@ -15,7 +15,7 @@ const Group = () => {
       <Card className="container custom-card">
         <Card.Body style={{ display: "center", height: "100%" }}>
           <Card.Title className="font-weight-bold">
-            <h1 style={{ textAlign: "center" }}>Sterilizer's Group Project</h1>
+            <h1 style={{ textAlign: "center",  textDecoration: "underline", color:"#ffffff"  }}>Sterilizer's Group Project</h1>
           </Card.Title>
           <Card.Text style={{ textAlign: "center" }}>
             <Image
@@ -42,7 +42,7 @@ const Group = () => {
                 <h2>Steam Sterilizer</h2>
                 <h5>Alcala, Eric</h5>
                 <a
-                  href="https://aktiangco.github.io/#/error" // update link here
+                  href="https://docs.google.com/presentation/d/1Pbo6Vxm1lPPcEF6uVLbQP8Uz0uOcXCXq73nto1PRj4w/edit" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn btn-hover"

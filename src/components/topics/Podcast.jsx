@@ -10,7 +10,7 @@ function Podcast() {
         <Card className="container custom-card">
           <Card.Body>
             <Card.Title className="font-weight-bold">
-              <h1>Podcast Report</h1>
+              <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>Podcast Report</h1>
             </Card.Title>
             <br />
             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>

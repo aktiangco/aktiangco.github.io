@@ -10,7 +10,7 @@ const About = () => {
         <Card className="container custom-card">
           <Card.Body>
             <Card.Title className="font-weight-bold">
-              <h1>About Me</h1>
+              <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>About Me</h1>
             </Card.Title>
             <br />
             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
