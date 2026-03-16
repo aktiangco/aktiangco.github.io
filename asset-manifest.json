@@ -1,26 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.da9fa60a.css",
-    "main.js": "/static/js/main.e83906fb.js",
-    "static/media/cesar.png": "/static/media/cesar.8dbafc8dd55bd69ffa37.png",
-    "static/media/eric.png": "/static/media/eric.ddcb4f1765feb4f47e26.png",
-    "static/media/group.png": "/static/media/group.450accc07a6e7f29f201.png",
-    "static/media/me.png": "/static/media/me.b2f289c194fd9295cd63.png",
+    "main.js": "/static/js/main.30f1ce82.js",
+    "static/media/eric2.png": "/static/media/eric2.21b59509ec84e1bba739.png",
+    "static/media/cesar2.png": "/static/media/cesar2.89a53700a311a0e0cf11.png",
+    "static/media/me2.png": "/static/media/me2.0b928562c41f193c796f.png",
+    "static/media/group2.png": "/static/media/group2.e8b8fddd23b11d43f8cf.png",
     "static/media/wrapper.png": "/static/media/wrapper.517e76c862cc9ba6363a.png",
     "static/media/ChatGPT.png": "/static/media/ChatGPT.47193fab546b53ca1f1c.png",
     "static/media/or-spd.png": "/static/media/or-spd.c3bfe7461c6c3578b6a4.png",
     "static/media/loading.png": "/static/media/loading.1b78f709ce7f16928192.png",
     "static/media/dry-bi.png": "/static/media/dry-bi.4f741695c9c50ac3d376.png",
-    "static/media/adiel.png": "/static/media/adiel.5f38ecbaab6cad4aefc3.png",
     "static/media/steam-cycle.png": "/static/media/steam-cycle.7da34c11e2f4ef677972.png",
     "static/media/steam-wrapper.png": "/static/media/steam-wrapper.1d8514ff395ecaa957a9.png",
+    "static/media/adiel2.png": "/static/media/adiel2.cb2d1a629e1eb23d40e6.png",
     "static/media/steam-load.png": "/static/media/steam-load.09114f804cb4333a8372.png",
+    "static/media/vinessa2.png": "/static/media/vinessa2.bcf17255988cfff9f203.png",
     "static/media/steam-monitor.png": "/static/media/steam-monitor.dcdf190c7ed1f6f55142.png",
-    "static/media/vinessa.png": "/static/media/vinessa.f0b8754d9381144d08a0.png",
     "static/media/steam-gravity.png": "/static/media/steam-gravity.017bf32f8f2c05304d7b.png",
     "static/media/ltgp-cycle.png": "/static/media/ltgp-cycle.ea1526f82ed3bcda2404.png",
     "static/media/dryheat-cycle.png": "/static/media/dryheat-cycle.614ba7209d8806f3bc94.png",
     "static/media/eo-cycle.png": "/static/media/eo-cycle.71614cba6b80d9827c18.png",
+    "static/media/me.png": "/static/media/me.e8254589c8a985f571d3.png",
     "static/media/steam-dynamic.png": "/static/media/steam-dynamic.c078330df9ba71f36dd3.png",
     "static/media/pro-con.png": "/static/media/pro-con.468a800d5e245c0e8056.png",
     "static/media/ozone-machine.png": "/static/media/ozone-machine.ed3d1228743fb0767cd7.png",
@@ -29,7 +30,7 @@
     "static/media/dryheat-machine.png": "/static/media/dryheat-machine.8e926281dc064e9b75b8.png",
     "static/media/steam-unloading.png": "/static/media/steam-unloading.912e7660c36d0d9f6c5e.png",
     "static/media/eo-machine.png": "/static/media/eo-machine.5a045bbdc1cdf0a181d5.png",
-    "static/media/john.png": "/static/media/john.6636db150d29c88bc9d6.png",
+    "static/media/john2.png": "/static/media/john2.b82e9d5d6bb2b0f65e32.png",
     "static/media/steam-loading.png": "/static/media/steam-loading.e380f2772376447ff36f.png",
     "static/media/ltgp-machine.png": "/static/media/ltgp-machine.ce92af5283bb1b2c0151.png",
     "static/media/iuss-machine.png": "/static/media/iuss-machine.24149164fe5f37148556.png",
@@ -39,10 +40,10 @@
     "static/media/vpro-machine.png": "/static/media/vpro-machine.6bee7bf9d3b9d0511e99.png",
     "index.html": "/index.html",
     "main.da9fa60a.css.map": "/static/css/main.da9fa60a.css.map",
-    "main.e83906fb.js.map": "/static/js/main.e83906fb.js.map"
+    "main.30f1ce82.js.map": "/static/js/main.30f1ce82.js.map"
   },
   "entrypoints": [
     "static/css/main.da9fa60a.css",
-    "static/js/main.e83906fb.js"
+    "static/js/main.30f1ce82.js"
   ]
 }
