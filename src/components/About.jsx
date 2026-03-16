@@ -18,10 +18,9 @@ const About = () => {
                 src={profile}
                 alt="Allan Kris Tiangco"
                 style={{
-                  width: "150px",
-                  height: "150px",
-                  border: "2px solid black",
-                  borderRadius: "50%",
+                  width: "170px",
+                  height: "180px",
+                  borderRadius: "40%",
                   objectFit: "cover",
                 }}
               />

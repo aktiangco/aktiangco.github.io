@@ -17,7 +17,7 @@ const Home = () => {
             <Image
               style={{
                 width: "100%",
-                height: "450px",
+                height: "500px",
                 objectFit: "cover",
                 borderRadius: "10px",
                 border: "1px black solid",
