@@ -646,7 +646,7 @@ const Steam = () => {
                   className="stack-image"
                   style={{
                     width: "300px",
-                    height: "300px",
+                    height: "50%",
                     borderRadius: "10%",
                     objectFit: "cover",
                   }}
@@ -659,7 +659,7 @@ const Steam = () => {
                   className="stack-image"
                   style={{
                     width: "300px",
-                    height: "350px",
+                    height: "50%",
                     borderRadius: "10%",
                     objectFit: "cover",
                   }}
@@ -671,7 +671,7 @@ const Steam = () => {
                   className="stack-image"
                   style={{
                     width: "300px",
-                    height: "300px",
+                    height: "50%",
                     borderRadius: "10%",
                     objectFit: "cover",
                   }}
