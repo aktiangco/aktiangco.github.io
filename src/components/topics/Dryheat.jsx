@@ -5,7 +5,7 @@ import cycle from "../../assets/images/dryheat/dryheat-cycle.png";
 import cycle2 from "../../assets/images/dryheat/dryheat-cycle2.png";
 import loading from "../../assets/images/dryheat/dryheat-loading.png";
 import unloading from "../../assets/images/dryheat/dryheat-unloading.png";
-import wrapper from "../../assets/images/dryheat/drytray.jpg";
+import wrapper from "../../assets/images/dryheat/drytray.png";
 import containers from "../../assets/images/dryheat/dryheat-containers.png";
 import procon from "../../assets/images/pro-con.png";
 import test from "../../assets/images/dryheat/dryheat-test.png";
@@ -13,7 +13,7 @@ import test from "../../assets/images/dryheat/dryheat-test.png";
 const Dryheat = () => {
   return (
     <div>
-      <Card className="container custom-card">
+      <Card className="container ster-card">
         <Card.Body style={{ display: "center", height: "100%" }}>
           <Card.Title className="font-weight-bold">
             <h1 style={{ textDecoration: "underline", color: "#ffffff" }}>

@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
     <div
-      className="footer"
+      className="footer-fixed"
       style={{ display: "flex", justifyContent: "space-between" }}
     >
       <div>

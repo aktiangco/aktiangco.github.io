@@ -18,7 +18,7 @@ import procon from "../../assets/images/pro-con.png";
 const Iuss = () => {
   return (
     <div>
-      <Card className="container custom-card">
+      <Card className="container ster-card">
         <Card.Body style={{ display: "center", height: "100%" }}>
           <Card.Title className="font-weight-bold">
             <h1 style={{ textDecoration: "underline", color: "#ffffff" }}>

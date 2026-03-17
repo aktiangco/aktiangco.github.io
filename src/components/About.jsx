@@ -27,8 +27,9 @@ const About = () => {
                 style={{
                   width: "170px",
                   height: "180px",
-                  borderRadius: "40%",
+                  borderRadius: "25%",
                   objectFit: "cover",
+                
                 }}
               />
               <div>
