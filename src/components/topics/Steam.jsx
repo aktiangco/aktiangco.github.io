@@ -20,17 +20,22 @@ const Steam = () => {
       <Card className="container custom-card">
         <Card.Body style={{ display: "center", height: "100%" }}>
           <Card.Title className="font-weight-bold">
-            <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>Steam Sterilizer</h1>
+            <h1 style={{ textDecoration: "underline", color: "#ffffff" }}>
+              Steam Sterilizer
+            </h1>
           </Card.Title>
           <br></br>
           <Card.Text>
             <div className="section-bubble">
-              <img src={machine} className="section-image" style={{
-                width: "300px",
-                height: "350px",
-                borderRadius: "10%",
-                objectFit: "cover",
-              }}
+              <img
+                src={machine}
+                className="section-image"
+                style={{
+                  width: "300px",
+                  height: "350px",
+                  borderRadius: "10%",
+                  objectFit: "cover",
+                }}
               />
               <div>
                 <h2>Facts About Steam Sterilizers</h2>
@@ -90,126 +95,109 @@ const Steam = () => {
             <div className="section-bubble">
               <div>
                 <h2>Cycles</h2>
-                <h4 style={{ textDecoration: "underline" }}>1. Gravity Displacement Cycle</h4>
+                <h4 style={{ textDecoration: "underline" }}>
+                  1. Gravity Displacement Cycle
+                </h4>
                 <h5>Details:</h5>
                 <ul>
                   <li>
-                  Steam enters the chamber and pushes the air out by gravity through a drain.
+                    Steam enters the chamber and pushes the air out by gravity
+                    through a drain.
                   </li>
                   <li>
-                  As steam fills the chamber, it replaces the cooler air.
+                    As steam fills the chamber, it replaces the cooler air.
                   </li>
                   <li>
-                  It is slower than other cycles because air removal is not mechanical.
+                    It is slower than other cycles because air removal is not
+                    mechanical.
                   </li>
                 </ul>
                 <h5>Common use:</h5>
                 <ul>
                   <li>
-                  Steam enters the chamber and pushes the air out by gravity through a drain.
+                    Steam enters the chamber and pushes the air out by gravity
+                    through a drain.
                   </li>
                   <li>
-                  As steam fills the chamber, it replaces the cooler air.
+                    As steam fills the chamber, it replaces the cooler air.
                   </li>
                   <li>
-                  It is slower than other cycles because air removal is not mechanical.
+                    It is slower than other cycles because air removal is not
+                    mechanical.
                   </li>
                 </ul>
                 <h5>Cycle Examples:</h5>
                 <ul>
-                  <li>
-                  Wrapped instrument: 121°C (250°F) for 30 minutes
-                  </li>
-                  <li>
-                  Unwrapped instruments: 121°C (250°F) for 15 minutes
-                  </li>
-                  <li>
-                  Metal instruments: 132°C (270°F) for 15 minutes
-                  </li>
-                  <li>
-                  Simple instrument loads: 132°C (270°F) for 10 minutes
-                  </li>
+                  <li>Wrapped instrument: 121°C (250°F) for 30 minutes</li>
+                  <li>Unwrapped instruments: 121°C (250°F) for 15 minutes</li>
+                  <li>Metal instruments: 132°C (270°F) for 15 minutes</li>
+                  <li>Simple instrument loads: 132°C (270°F) for 10 minutes</li>
                 </ul>
-                <h4 style={{ textDecoration: "underline" }}>2. Dynamic Air Removal Cycle</h4>
+                <h4 style={{ textDecoration: "underline" }}>
+                  2. Dynamic Air Removal Cycle
+                </h4>
                 <h5>Details:</h5>
                 <ul>
                   <li>
-                  A vacuum pump removes air from the chamber before steam enters.
+                    A vacuum pump removes air from the chamber before steam
+                    enters.
                   </li>
                   <li>
-                  This allows steam to penetrate instruments and packaging more effectively.
+                    This allows steam to penetrate instruments and packaging
+                    more effectively.
+                  </li>
+                  <li>It is faster and more efficient than gravity cycles.</li>
+                </ul>
+                <h5>Common use:</h5>
+                <ul>
+                  <li>Wrapped instrument sets</li>
+                  <li>Complex surgical instruments</li>
+                  <li>Large loads</li>
+                </ul>
+                <h5>Cycle Examples:</h5>
+                <ul>
+                  <li>Wrapped instrument: 132°C (270°F) for 4 minutes</li>
+                  <li>Unwrapped instruments: 132°C (270°F) for 3 minutes</li>
+                  <li>Metal instruments: 135°C (275°F) for 3 minutes</li>
+                  <li>
+                    Implants (BI monitoring): 132°C (270°F) for 10 minutes
+                  </li>
+                </ul>
+                <h4 style={{ textDecoration: "underline" }}>
+                  3. Extended (or Special) Cycles (Dynamic Cycle)
+                </h4>
+                <h5>Details:</h5>
+                <ul>
+                  <li>
+                    Extended cycles provide additional exposure time so steam
+                    can fully penetrate heavy or complicated instrument sets.
                   </li>
                   <li>
-                  It is faster and more efficient than gravity cycles.
+                    They are often used when standard cycles may not allow
+                    enough time for proper sterilization.
+                  </li>
+                  <li>
+                    The exact parameters depend on the sterilizer manufacturer
+                    and the medical device instructions for use (IFU).
                   </li>
                 </ul>
                 <h5>Common use:</h5>
                 <ul>
+                  <li>Large or heavy instrument trays</li>
+                  <li>Complex surgical instrument sets</li>
                   <li>
-                  Wrapped instrument sets
+                    Implants that require additional sterilization assurance
                   </li>
-                  <li>
-                  Complex surgical instruments
-                  </li>
-                  <li>
-                  Large loads
-                  </li>
+                  <li>Dense metal devices that take longer to heat</li>
                 </ul>
                 <h5>Cycle Examples:</h5>
                 <ul>
-                <li>
-                  Wrapped instrument: 132°C (270°F) for 4 minutes
-                  </li>
-                  <li>
-                  Unwrapped instruments: 132°C (270°F) for 3 minutes
-                  </li>
-                  <li>
-                  Metal instruments: 135°C (275°F) for 3 minutes
-                  </li>
-                  <li>
-                  Implants (BI monitoring): 132°C (270°F) for 10 minutes
-                  </li>
-                </ul>
-                <h4 style={{ textDecoration: "underline" }}>3. Extended (or Special) Cycles (Dynamic Cycle)</h4>
-                <h5>Details:</h5>
-                <ul>
-                  <li>
-                  Extended cycles provide additional exposure time so steam can fully penetrate heavy or complicated instrument sets.
-                  </li>
-                  <li>
-                  They are often used when standard cycles may not allow enough time for proper sterilization.
-                  </li>
-                  <li>
-                  The exact parameters depend on the sterilizer manufacturer and the medical device instructions for use (IFU).
-                  </li>
-                </ul>
-                <h5>Common use:</h5>
-                <ul>
-                  <li>
-                  Large or heavy instrument trays
-                  </li>
-                  <li>
-                  Complex surgical instrument sets
-                  </li>
-                  <li>
-                  Implants that require additional sterilization assurance
-                  </li>
-                  <li>
-                  Dense metal devices that take longer to heat
-                  </li>
-                </ul>
-                <h5>Cycle Examples:</h5>
-                <ul>
-                <li>
-                  Gravity Cycle: 121°C (250°F) for about 40 minutes
-                  </li>
-                  <li>
-                  Dynamic Cycle: 132°C (270°F) for about 10 minutes
-                  </li>
+                  <li>Gravity Cycle: 121°C (250°F) for about 40 minutes</li>
+                  <li>Dynamic Cycle: 132°C (270°F) for about 10 minutes</li>
                 </ul>
               </div>
               <div>
-              <img
+                <img
                   src={gravity}
                   className="stack-image"
                   style={{
@@ -251,7 +239,7 @@ const Steam = () => {
                     objectFit: "cover",
                   }}
                 />
-                </div>
+              </div>
             </div>
           </Card.Text>
           <Card.Text>
@@ -490,7 +478,7 @@ const Steam = () => {
                   src={rigid}
                   className="section-image"
                   style={{
-                    width: "500px",
+                    width: "400px",
                     height: "50%",
                     borderRadius: "10%",
                     objectFit: "cover",
@@ -501,7 +489,16 @@ const Steam = () => {
           </Card.Text>
           <Card.Text>
             <div className="section-bubble">
-              <img src={procon} className="section-image" />
+            <img
+                  src={procon}
+                  className="section-image"
+                  style={{
+                    width: "300px",
+                    height: "50%",
+                    borderRadius: "10%",
+                    objectFit: "cover",
+                  }}
+                />
               <div>
                 <h2>Pros and Cons</h2>
                 <div>
@@ -648,7 +645,7 @@ const Steam = () => {
                   src={monitor}
                   className="stack-image"
                   style={{
-                    width: "385px",
+                    width: "300px",
                     height: "300px",
                     borderRadius: "10%",
                     objectFit: "cover",
@@ -656,12 +653,12 @@ const Steam = () => {
                 />
                 <br></br>
                 <br></br>
-        
+
                 <img
                   src={ci}
                   className="stack-image"
                   style={{
-                    width: "350px",
+                    width: "300px",
                     height: "350px",
                     borderRadius: "10%",
                     objectFit: "cover",
@@ -673,7 +670,7 @@ const Steam = () => {
                   src={bi}
                   className="stack-image"
                   style={{
-                    width: "385px",
+                    width: "300px",
                     height: "300px",
                     borderRadius: "10%",
                     objectFit: "cover",

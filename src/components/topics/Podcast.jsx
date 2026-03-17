@@ -41,6 +41,9 @@ function Podcast() {
                     <div style={{ padding: "5px" }}>Link here</div>
                   </a>
                 </div>
+                      <Card.Text>
+                          - Report by Allan Tiangco
+                      </Card.Text>
               </div>
             </div>
             <br></br>
@@ -53,10 +56,7 @@ function Podcast() {
                       <Card.Text className="paragraph-indent">
                       Cross-training can also help protect patients by improving instrument safety and quality. When staff members understand each other’s processes, they are more likely to recognize potential problems early, such as missing instruments, damaged equipment, or improper handling. This can help prevent errors, reduce delays during surgery, and ensure that sterile instruments are available when needed. Learning about the connection between OR and SPD helped me understand how important cooperation between departments is in creating a safe environment for both patients and healthcare professionals.
             </Card.Text>
-            <br></br>
-                      <Card.Text>
-                          - Report by Allan Tiangco
-                      </Card.Text>
+
           </Card.Body>
         </Card>
       </div>

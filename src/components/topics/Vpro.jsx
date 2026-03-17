@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import profile from "../../assets/images/logo.png";
 import machine from "../../assets/images/vpro/vpro-machine.png";
 import cycle from "../../assets/images/ltgp/ltgp-cycle.png";
+import procon from "../../assets/images/pro-con.png";
 
 const Vpro = () => {
   return (
@@ -65,11 +66,16 @@ const Vpro = () => {
             <div className="section-bubble">
               <img src={profile} className="section-image" />
               <div>
-                <h2>Pros and Cons</h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+              <img
+                  src={procon}
+                  className="section-image"
+                  style={{
+                    width: "300px",
+                    height: "50%",
+                    borderRadius: "10%",
+                    objectFit: "cover",
+                  }}
+                />
               </div>
             </div>
           </Card.Text>

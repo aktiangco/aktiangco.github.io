@@ -54,7 +54,7 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  Open Google Slides Presentation
+                  Google Slides
                 </a>
               </div>
             </div>
@@ -63,7 +63,7 @@ const Group = () => {
           <Card.Text>
             <div
               className="section-bubble"
-              style={{ backgroundColor: "blue", color: "white" }}
+              style={{ backgroundColor: "#87ceeb", color: "white" }}
             >
               <img src={adiel} style={{ height: " 150px", width: "150px", borderRadius:"10%" }}  />
               <div>
@@ -77,12 +77,12 @@ const Group = () => {
                   style={{
                     backgroundColor: "white",
                     border: "none",
-                    color: "blue",
+                    color: "#87ceeb",
                     padding: "10px 20px",
                     textDecoration: "none",
                   }}
                 >
-                  Open Google Slides Presentation
+                  Google Slides
                 </a>
               </div>
             </div>
@@ -109,7 +109,7 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  Open Google Slides Presentation
+                  Google Slides
                 </a>
               </div>
             </div>
@@ -136,7 +136,7 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  Open Google Slides Presentation
+                  Google Slides
                 </a>
               </div>
             </div>
@@ -163,7 +163,7 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  Open Google Slides Presentation
+                  Google Slides
                 </a>
               </div>
             </div>
@@ -190,7 +190,7 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  Open Google Slides Presentation
+                  Google Slides
                 </a>
               </div>
             </div>

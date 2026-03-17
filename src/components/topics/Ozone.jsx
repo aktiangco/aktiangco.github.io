@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import profile from "../../assets/images/logo.png";
 import machine from "../../assets/images/ozone/ozone-machine.png"
 import cycle from "../../assets/images/ltgp/ltgp-cycle.png"
+import procon from "../../assets/images/pro-con.png";
 
 const Ozone = () => {
   return (
@@ -75,10 +76,16 @@ const Ozone = () => {
           </Card.Text>
           <Card.Text>
             <div className="section-bubble">
-              <img
-                src={profile}
-                className="section-image"
-              />
+            <img
+                  src={procon}
+                  className="section-image"
+                  style={{
+                    width: "300px",
+                    height: "50%",
+                    borderRadius: "10%",
+                    objectFit: "cover",
+                  }}
+                />
               <div>
                 <h2>Pros and Cons</h2>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
