@@ -13,7 +13,7 @@ const Vpro = () => {
           <Card.Title className="font-weight-bold">
             <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>Low-Temp Hydrogen Peroxide (vpro) Sterilizer</h1>
           </Card.Title>
-          <br></br>
+          <br />
           <Card.Text>
             <div className="section-bubble">
               <img src={machine} className="section-image" />
@@ -97,8 +97,8 @@ const Vpro = () => {
                 growth. If no bacterial spores grew, then the sterilizer was
                 able to adequately sterilize dental instruments and surgical
                 instruments.
-                <br></br>
-                <br></br>
+                <br />
+                <br />
                 In addition to using the biological test to check for the
                 efficiency of the sterilization cycle, technicians are also
                 using chemical indicators in conjunction with the biological

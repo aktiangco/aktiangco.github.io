@@ -13,7 +13,7 @@ const Ltgp = () => {
           <Card.Title className="font-weight-bold">
             <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>Low-Temp Gas Plasma (LTGP) Sterilizer</h1>
           </Card.Title>
-          <br></br>
+          <br />
           <Card.Text>
             <div className="section-bubble">
               <img

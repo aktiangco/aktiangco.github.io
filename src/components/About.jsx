@@ -79,7 +79,7 @@ const About = () => {
         </div>
               </div>
             </div>
-            <br></br>
+            <br />
             <Card.Text className="paragraph-indent">
               I am a dedicated and reliable professional with over 20 years of
               experience working in healthcare logistics, supply chain, and

@@ -9,44 +9,38 @@ function Podcast() {
       <div>
         <Card className="container custom-card">
           <Card.Body>
-            <Card.Title className="font-weight-bold">
+            <Card.Title >
               <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>Podcast Report</h1>
             </Card.Title>
-            <br />
-            <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
+            {/* IMAGE + TEXT SECTION */}
+            <div className="podcast-header">
               <img
-                src={profile}
-                alt="or and spd photo"
-                className="section-image"
-                style={{ height: "200px", width: "300px" }}
+                 src={profile}
+                 alt="OR and SPD collaboration"
+                 className="podcast-image"
               />
-              <div>
+              <div className="podcast-content">
                 <h3>
                   OR/SPD Collaboration and the 2018 OR Today Live Conference
                   (featuring David Taylor)
                 </h3>
-                <div style={{ padding: "5px" }}>
-                  <a
-                    className="rounded custom-btn btn-hover"
-                    style={{
-                      backgroundColor: "#52dcc5",
-                      border: "none",
-                      color: "black",
-                    }}
-                    href="https://youtu.be/kQ32uov5Z_g?si=dKgdnjDrU0ZQDadb"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Youtube size={50} style={{ padding: "5px" }} />
-                    <div style={{ padding: "5px" }}>Link here</div>
-                  </a>
+                <div style={{ padding: "5px 0" }}>
+                <a
+                  className="rounded custom-btn btn-hover"
+                  href="https://youtu.be/kQ32uov5Z_g?si=dKgdnjDrU0ZQDadb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Youtube size={30} />
+                  <span>Link here</span>
+                </a>
                 </div>
                       <Card.Text>
                           - Report by Allan Tiangco
                       </Card.Text>
               </div>
             </div>
-            <br></br>
+            <br />
                       <Card.Text className="paragraph-indent">
                       After learning more about the relationship between the Operating Room (OR) and the Sterile Processing Department (SPD), I realized how important teamwork and communication are between these two departments. Even though they have different responsibilities, they are closely connected through the surgical instruments used during procedures. The OR relies on SPD to properly clean, inspect, assemble, and sterilize instruments so they are safe for patient use. At the same time, SPD depends on OR staff to handle instruments carefully after surgery and return them for proper reprocessing. Understanding how both departments rely on each other helped me see how important collaboration is in maintaining patient safety.
                       </Card.Text>
@@ -65,3 +59,4 @@ function Podcast() {
 }
 
 export default Podcast;
+

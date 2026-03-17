@@ -25,7 +25,7 @@ const Iuss = () => {
               Immiediate-Use Steam Sterilizer (IUSS)
             </h1>
           </Card.Title>
-          <br></br>
+          <br />
           <Card.Text>
             <div className="section-bubble">
             <img
@@ -162,8 +162,8 @@ const Iuss = () => {
                     objectFit: "cover",
                   }}
                 />
-                <br></br>
-                <br></br>
+                 <br />
+                <br />
                 <img
                   src={cycle}
                   className="section-image"
@@ -174,8 +174,8 @@ const Iuss = () => {
                     objectFit: "cover",
                   }}
                 />
-                <br></br>
-                <br></br>
+                <br />
+                <br />
                 <img
                   src={cycle2}
                   className="section-image"
@@ -202,8 +202,8 @@ const Iuss = () => {
                     objectFit: "cover",
                   }}
                 />
-                <br></br>
-                <br></br>
+                <br />
+                <br />
                 <img
                   src={unloading}
                   className="section-image"
@@ -327,8 +327,8 @@ const Iuss = () => {
                     objectFit: "cover",
                   }}
                 />
-                <br></br>
-                <br></br>
+                <br />
+                <br />
                 <img
                   src={container}
                   className="section-image"
@@ -502,8 +502,8 @@ const Iuss = () => {
                     objectFit: "cover",
                   }}
                 />
-                  <br></br>
-                <br></br>
+                  <br />
+                <br />
                             <img
                   src={ci}
                   className="section-image"
@@ -514,8 +514,8 @@ const Iuss = () => {
                     objectFit: "cover",
                   }}
                 />
-                <br></br>
-                <br></br>
+                <br />
+                <br />
                             <img
                   src={bi}
                   className="section-image"

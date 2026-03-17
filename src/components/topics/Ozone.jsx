@@ -13,7 +13,7 @@ const Ozone = () => {
           <Card.Title className="font-weight-bold">
             <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>Hydrogen Peroxide Ozone Sterilizer</h1>
           </Card.Title>
-          <br></br>
+          <br />
           <Card.Text>
             <div className="section-bubble">
               <img

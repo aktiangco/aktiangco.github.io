@@ -20,7 +20,7 @@ const Dryheat = () => {
               Dry Heat Sterilizer
             </h1>
           </Card.Title>
-          <br></br>
+          <br />
           <Card.Text>
             <div className="section-bubble">
             <img
@@ -132,9 +132,9 @@ const Dryheat = () => {
                     objectFit: "cover",
                   }}
                 />
-                <br></br>
-                <br></br>
-                <br></br>
+                <br />
+                <br />
+                <br />
                 <img
                   src={cycle2}
                   className="section-image"
@@ -161,10 +161,10 @@ const Dryheat = () => {
                     objectFit: "cover",
                   }}
                 />
-                      <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
+                       <br />
+                      <br />
+                <br />
+                <br />
                 <img
                   src={unloading}
                   className="section-image"
@@ -283,8 +283,8 @@ const Dryheat = () => {
                     objectFit: "cover",
                   }}
                 />
-                <br></br>
-                <br></br>
+                 <br />
+                <br />
                 <img
                   src={containers}
                   className="section-image"

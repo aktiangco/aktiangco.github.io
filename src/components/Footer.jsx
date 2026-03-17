@@ -16,9 +16,6 @@ const Footer = () => {
       <div>
         <div style={{ display: "flex" }}>
           <div style={{ padding: "10px" }}>
-            <div>created by Allan Tiangco</div>
-          </div>
-          <div style={{ padding: "10px" }}>
             <a
               style={{ color: "white" }}
               href="https://www.linkedin.com/in/allan-kris-tiangco-057a78a0/"

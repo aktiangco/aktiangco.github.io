@@ -13,7 +13,7 @@ const Eo = () => {
           <Card.Title className="font-weight-bold">
             <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>ETHYLENE OXIDE Sterilizer</h1>
           </Card.Title>
-          <br></br>
+          <br />
           <Card.Text>
             <div className="section-bubble">
               <img

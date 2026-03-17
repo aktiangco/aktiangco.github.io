@@ -24,7 +24,7 @@ const Steam = () => {
               Steam Sterilizer
             </h1>
           </Card.Title>
-          <br></br>
+          <br />
           <Card.Text>
             <div className="section-bubble">
               <img
@@ -207,12 +207,9 @@ const Steam = () => {
                     objectFit: "cover",
                   }}
                 />
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
+                <br />
+                <br />
+                <br />
                 <img
                   src={dynamic}
                   className="stack-image"
@@ -223,12 +220,9 @@ const Steam = () => {
                     objectFit: "cover",
                   }}
                 />
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
+                <br />
+                <br />
+                <br />
                 <img
                   src={cycle}
                   className="stack-image"
@@ -255,8 +249,8 @@ const Steam = () => {
                     objectFit: "cover",
                   }}
                 />
-                <br></br>
-                <br></br>
+                <br />
+                <br />
                 <img
                   src={load}
                   className="stack-image"
@@ -267,8 +261,8 @@ const Steam = () => {
                     objectFit: "cover",
                   }}
                 />
-                <br></br>
-                <br></br>
+                <br />
+                <br />
                 <img
                   src={unloading}
                   className="stack-image"
@@ -472,8 +466,8 @@ const Steam = () => {
                     objectFit: "cover",
                   }}
                 />
-                <br></br>
-                <br></br>
+                <br />
+                <br />
                 <img
                   src={rigid}
                   className="section-image"
@@ -590,9 +584,9 @@ const Steam = () => {
                     <li>Pressure</li>
                   </ul>
                 </div>
-                <br></br>
-                <br></br>
-                <br></br>
+                <br />
+                <br />
+                <br />
                 <div>
                   <h4 style={{ textDecoration: "underline" }}>
                     2. Chemical Indicator (CI) - Every Package
@@ -607,10 +601,10 @@ const Steam = () => {
                     <li>Internal CI Strips</li>
                   </ul>
                 </div>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
+                <br />
+                <br />
+                <br />
+                <br />
                 <div>
                   <h4 style={{ textDecoration: "underline" }}>
                     3. Biological Indicator (BI) Test - Daily
@@ -632,7 +626,7 @@ const Steam = () => {
                       or rapid BI 1–3 hours).
                     </li>
                   </ol>
-                  <br></br>
+                  <br />
                   <ul>
                     <h6>Results:</h6>
                     <li>No color change / no growth → sterilization passed</li>
@@ -651,8 +645,8 @@ const Steam = () => {
                     objectFit: "cover",
                   }}
                 />
-                <br></br>
-                <br></br>
+                <br />
+                <br />
 
                 <img
                   src={ci}
@@ -664,8 +658,8 @@ const Steam = () => {
                     objectFit: "cover",
                   }}
                 />
-                <br></br>
-                <br></br>
+                <br />
+                <br />
                 <img
                   src={bi}
                   className="stack-image"
