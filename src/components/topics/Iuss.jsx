@@ -28,16 +28,16 @@ const Iuss = () => {
           <br />
           <Card.Text>
             <div className="section-bubble">
-            <img
-                  src={machine}
-                  className="section-image"
-                  style={{
-                    width: "350px",
-                    height: "50%",
-                    borderRadius: "10%",
-                    objectFit: "cover",
-                  }}
-                />
+              <img
+                src={machine}
+                className="section-image"
+                style={{
+                  width: "350px",
+                  height: "50%",
+                  borderRadius: "10%",
+                  objectFit: "cover",
+                }}
+              />
               <div>
                 <h2>IUSS Sterilization Facts:</h2>
                 <ul>
@@ -152,7 +152,7 @@ const Iuss = () => {
                 </ul>
               </div>
               <div>
-              <img
+                <img
                   src={cycle1}
                   className="section-image"
                   style={{
@@ -162,7 +162,7 @@ const Iuss = () => {
                     objectFit: "cover",
                   }}
                 />
-                 <br />
+                <br />
                 <br />
                 <img
                   src={cycle}
@@ -192,7 +192,7 @@ const Iuss = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-              <img
+                <img
                   src={loading}
                   className="section-image"
                   style={{
@@ -214,7 +214,6 @@ const Iuss = () => {
                     objectFit: "cover",
                   }}
                 />
-              
               </div>
               <div>
                 <h2>Loading and Unloading</h2>
@@ -234,9 +233,7 @@ const Iuss = () => {
                   </li>
                 </ul>
 
-                <h4 style={{ textDecoration: "underline" }}>
-                  Unloading
-                </h4>
+                <h4 style={{ textDecoration: "underline" }}>Unloading</h4>
                 <ul>
                   <li>
                     Allow pressure to return to zero before opening the
@@ -260,7 +257,6 @@ const Iuss = () => {
                   </li>
                 </ul>
               </div>
-              
             </div>
           </Card.Text>
           <Card.Text>
@@ -317,7 +313,7 @@ const Iuss = () => {
                 </ul>
               </div>
               <div>
-              <img
+                <img
                   src={flashpak}
                   className="section-image"
                   style={{
@@ -339,14 +335,13 @@ const Iuss = () => {
                     objectFit: "cover",
                   }}
                 />
-              
               </div>
             </div>
           </Card.Text>
           <Card.Text>
             <div className="section-bubble">
-            <div>
-              <img
+              <div>
+                <img
                   src={cleaning}
                   className="section-image"
                   style={{
@@ -356,7 +351,7 @@ const Iuss = () => {
                     objectFit: "cover",
                   }}
                 />
-                              </div>
+              </div>
               <div>
                 <h2>Cleaning IUSS Containers</h2>
                 <ul>
@@ -492,7 +487,7 @@ const Iuss = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-            <img
+                <img
                   src={monitor}
                   className="section-image"
                   style={{
@@ -502,9 +497,9 @@ const Iuss = () => {
                     objectFit: "cover",
                   }}
                 />
-                  <br />
                 <br />
-                            <img
+                <br />
+                <img
                   src={ci}
                   className="section-image"
                   style={{
@@ -516,7 +511,7 @@ const Iuss = () => {
                 />
                 <br />
                 <br />
-                            <img
+                <img
                   src={bi}
                   className="section-image"
                   style={{
@@ -526,7 +521,7 @@ const Iuss = () => {
                     objectFit: "cover",
                   }}
                 />
-                              </div>
+              </div>
               <div>
                 <h2>How to test Sterilizer</h2>
                 <h4 style={{ textDecoration: "underline" }}>

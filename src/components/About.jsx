@@ -17,7 +17,9 @@ const About = () => {
         <Card className="container custom-card">
           <Card.Body>
             <Card.Title className="font-weight-bold">
-              <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>About Me</h1>
+              <h1 style={{ textDecoration: "underline", color: "#ffffff" }}>
+                About Me
+              </h1>
             </Card.Title>
             <br />
             <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
@@ -29,45 +31,43 @@ const About = () => {
                   height: "180px",
                   borderRadius: "25%",
                   objectFit: "cover",
-                
                 }}
               />
               <div>
                 <h2>Allan Kris Tiangco</h2>
                 <h4>Medtek College Hayward Student</h4>
                 <div style={{ display: "flex" }}>
-              <div style={{ padding: "10px" }}>
-            <a
-              style={{ color: "white" }}
-              href="https://www.linkedin.com/in/allan-kris-tiangco-057a78a0/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Linkedin />
-            </a>
-          </div>
-          <div style={{ padding: "10px" }}>
-            <a
-              style={{ color: "white" }}
-              href="https://github.com/aktiangco"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Github />
-            </a>
-          </div>
-          <div style={{ padding: "10px" }}>
-            <a
-              style={{ color: "white" }}
-              href="https://www.instagram.com/akvt808/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Instagram />
-            </a>
-          </div>
-         
-        </div>
+                  <div style={{ padding: "10px" }}>
+                    <a
+                      style={{ color: "white" }}
+                      href="https://www.linkedin.com/in/allan-kris-tiangco-057a78a0/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Linkedin />
+                    </a>
+                  </div>
+                  <div style={{ padding: "10px" }}>
+                    <a
+                      style={{ color: "white" }}
+                      href="https://github.com/aktiangco"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github />
+                    </a>
+                  </div>
+                  <div style={{ padding: "10px" }}>
+                    <a
+                      style={{ color: "white" }}
+                      href="https://www.instagram.com/akvt808/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Instagram />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
             <br />

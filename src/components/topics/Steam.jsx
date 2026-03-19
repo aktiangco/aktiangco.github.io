@@ -483,16 +483,16 @@ const Steam = () => {
           </Card.Text>
           <Card.Text>
             <div className="section-bubble">
-            <img
-                  src={procon}
-                  className="section-image"
-                  style={{
-                    width: "300px",
-                    height: "50%",
-                    borderRadius: "10%",
-                    objectFit: "cover",
-                  }}
-                />
+              <img
+                src={procon}
+                className="section-image"
+                style={{
+                  width: "300px",
+                  height: "50%",
+                  borderRadius: "10%",
+                  objectFit: "cover",
+                }}
+              />
               <div>
                 <h2>Pros and Cons</h2>
                 <div>
@@ -565,9 +565,7 @@ const Steam = () => {
           </Card.Text>
 
           <Card.Text>
-            <div
-className="section-bubble"
-            >
+            <div className="section-bubble">
               <div>
                 <h2>How to test Sterilizer</h2>
                 <div>
@@ -632,7 +630,7 @@ className="section-bubble"
                 </div>
               </div>
               <div>
-              <img
+                <img
                   src={monitor}
                   className="section-image"
                   style={{

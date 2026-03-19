@@ -8,10 +8,7 @@ import vinessa from "../../assets/images/profile/vinessa2.png";
 import john from "../../assets/images/profile/john2.png";
 import cesar from "../../assets/images/profile/cesar2.png";
 import eric from "../../assets/images/profile/eric2.png";
-import {
-  Google,
-  FolderSymlinkFill,
-} from "react-bootstrap-icons";
+import { Google, FolderSymlinkFill } from "react-bootstrap-icons";
 
 const Group = () => {
   return (
@@ -19,7 +16,15 @@ const Group = () => {
       <Card className="container custom-card">
         <Card.Body style={{ display: "center", height: "100%" }}>
           <Card.Title className="font-weight-bold">
-            <h1 style={{ textAlign: "center",  textDecoration: "underline", color:"#ffffff"  }}>Sterilizer's Group Project</h1>
+            <h1
+              style={{
+                textAlign: "center",
+                textDecoration: "underline",
+                color: "#ffffff",
+              }}
+            >
+              Sterilizer's Group Project
+            </h1>
           </Card.Title>
           <Card.Text style={{ textAlign: "center" }}>
             <Image
@@ -32,8 +37,8 @@ const Group = () => {
               src={group}
               fluid
             />
-             <br />
-             <br />
+            <br />
+            <br />
             <h2>The Clean Pean Team</h2>
           </Card.Text>
           <Card.Text>
@@ -41,7 +46,14 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "black", color: "white" }}
             >
-              <img src={eric} style={{ height: " 150px", width: "150px", borderRadius:"10%" }}/>
+              <img
+                src={eric}
+                style={{
+                  height: " 150px",
+                  width: "150px",
+                  borderRadius: "10%",
+                }}
+              />
               <div>
                 <h2>Steam Sterilizer</h2>
                 <h5>Alcala, Eric</h5>
@@ -58,9 +70,8 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                  <Google size={20}/>
-                <FolderSymlinkFill size={20}/>
-                
+                  <Google size={20} />
+                  <FolderSymlinkFill size={20} />
                 </a>
               </div>
             </div>
@@ -71,7 +82,14 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "#87ceeb", color: "white" }}
             >
-              <img src={adiel} style={{ height: " 150px", width: "150px", borderRadius:"10%" }}  />
+              <img
+                src={adiel}
+                style={{
+                  height: " 150px",
+                  width: "150px",
+                  borderRadius: "10%",
+                }}
+              />
               <div>
                 <h2>Ethylene Oxide</h2>
                 <h4>Valquez Gonzalez, Adiel</h4>
@@ -88,10 +106,8 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                 <Google size={20}/>
-                <FolderSymlinkFill size={20}/>
-                
-                
+                  <Google size={20} />
+                  <FolderSymlinkFill size={20} />
                 </a>
               </div>
             </div>
@@ -101,7 +117,14 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "#50c878", color: "black" }}
             >
-              <img src={john} style={{ height: " 150px", width: "150px", borderRadius:"10%" }}   />
+              <img
+                src={john}
+                style={{
+                  height: " 150px",
+                  width: "150px",
+                  borderRadius: "10%",
+                }}
+              />
               <div>
                 <h2>Low-Temperature Gas Plasma</h2>
                 <h4>Bejarin, John</h4>
@@ -118,10 +141,8 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                 <Google size={20}/>
-                <FolderSymlinkFill size={20}/>
-                
-                
+                  <Google size={20} />
+                  <FolderSymlinkFill size={20} />
                 </a>
               </div>
             </div>
@@ -131,7 +152,14 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "red", color: "black" }}
             >
-              <img src={cesar} style={{ height: " 150px", width: "150px", borderRadius:"10%" }}   />
+              <img
+                src={cesar}
+                style={{
+                  height: " 150px",
+                  width: "150px",
+                  borderRadius: "10%",
+                }}
+              />
               <div>
                 <h2>Low-Temperature Hydrogen Peroxide(V-Pro)</h2>
                 <h4>Trejo, Cesar</h4>
@@ -148,10 +176,8 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                 <Google size={20}/>
-                <FolderSymlinkFill size={20}/>
-                
-                
+                  <Google size={20} />
+                  <FolderSymlinkFill size={20} />
                 </a>
               </div>
             </div>
@@ -161,7 +187,14 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "pink", color: "black" }}
             >
-              <img src={vinessa} style={{ height: " 150px", width: "150px", borderRadius:"10%" }}  />
+              <img
+                src={vinessa}
+                style={{
+                  height: " 150px",
+                  width: "150px",
+                  borderRadius: "10%",
+                }}
+              />
               <div>
                 <h2>Hydrogen Peroxide Ozone Sterilization</h2>
                 <h4>Cofield, Vinessa</h4>
@@ -178,10 +211,8 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                 <Google size={20}/>
-                <FolderSymlinkFill size={20}/>
-                
-                
+                  <Google size={20} />
+                  <FolderSymlinkFill size={20} />
                 </a>
               </div>
             </div>
@@ -191,7 +222,14 @@ const Group = () => {
               className="section-bubble"
               style={{ backgroundColor: "#7852a9", color: "white" }}
             >
-              <img src={me} style={{ height: " 150px", width: "150px", borderRadius:"10%" }}  />
+              <img
+                src={me}
+                style={{
+                  height: " 150px",
+                  width: "150px",
+                  borderRadius: "10%",
+                }}
+              />
               <div>
                 <h2>Dry Heat and IUSS</h2>
                 <h4>Tiangco, Allan</h4>
@@ -208,10 +246,8 @@ const Group = () => {
                     textDecoration: "none",
                   }}
                 >
-                 <Google size={20}/>
-                <FolderSymlinkFill size={20}/>
-                
-                
+                  <Google size={20} />
+                  <FolderSymlinkFill size={20} />
                 </a>
               </div>
             </div>

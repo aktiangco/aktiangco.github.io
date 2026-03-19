@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import medtek from "../assets/images/medtek.png";
 
 const NavBar = () => {
   const [expanded, setExpanded] = useState(false);
@@ -20,12 +21,25 @@ const NavBar = () => {
   const closeMenu = () => setExpanded(false);
 
   return (
-    <Navbar expand="lg" bg="dark" variant="dark" fixed="top" expanded={expanded}
-    onToggle={(isOpen) => setExpanded(isOpen)}
-    collapseOnSelect>
+    <Navbar
+      expand="lg"
+      bg="dark"
+      variant="dark"
+      fixed="top"
+      expanded={expanded}
+      onToggle={(isOpen) => setExpanded(isOpen)}
+      collapseOnSelect
+    >
       <Container>
         <Navbar.Brand as={Link} to="/" onClick={closeMenu}>
-          MedTek Hayward
+          <div className="logo-header">
+            <img
+              src={medtek}
+              alt="logo"
+              className="logo-img"
+              />
+            <h2 className="logo-text">MedTek Hayward</h2>
+          </div>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
