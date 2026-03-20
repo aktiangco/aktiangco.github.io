@@ -2,11 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import profile from "../assets/images/profile/me.png";
 import straw from "../assets/images/luffy.gif";
-import {
-  Instagram,
-   Linkedin,
-  Github,
-} from "react-bootstrap-icons";
+import { Instagram, Linkedin, Github } from "react-bootstrap-icons";
 
 const About = () => {
   return (
@@ -14,7 +10,6 @@ const About = () => {
       <div>
         <Card className="container custom-card">
           <Card.Body>
-              
             <Card.Title className="font-weight-bold">
               <h1 style={{ textDecoration: "underline", color: "#ffffff" }}>
                 About Me
@@ -26,16 +21,16 @@ const About = () => {
                 className="section-bubble"
                 style={{ backgroundColor: "black" }}
               >
-              <img
-                src={profile}
-                alt="Allan Kris Tiangco"
-                style={{
-                  width: "170px",
-                  height: "180px",
-                  borderRadius: "25%",
-                  objectFit: "cover",
-                }}
-              />
+                <img
+                  src={profile}
+                  alt="Allan Kris Tiangco"
+                  style={{
+                    width: "170px",
+                    height: "180px",
+                    borderRadius: "25%",
+                    objectFit: "cover",
+                  }}
+                />
                 <div>
                   <div>
                     <h2 style={{ color: "rgb(199, 199, 191)" }}>
@@ -73,17 +68,16 @@ const About = () => {
                           <Instagram />
                         </a>
                       </div>
-                        <img
-                src={straw}
-                alt="Allan Kris Tiangco"
-                style={{
-                  width: "100%",
-                  height: "100px",
-                  borderRadius: "10px",
-                  objectFit: "cover",
-                 
-                }}
-              />
+                      <img
+                        src={straw}
+                        alt="Allan Kris Tiangco"
+                        style={{
+                          width: "100%",
+                          height: "100px",
+                          borderRadius: "10px",
+                          objectFit: "cover",
+                        }}
+                      />
                     </div>
                   </div>
                 </div>

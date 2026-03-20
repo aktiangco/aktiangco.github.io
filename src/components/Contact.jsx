@@ -4,6 +4,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import emailjs from "@emailjs/browser";
 import medtek from "../assets/images/medtek.png";
+import puu from "../assets/images/puu.png";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -99,20 +100,32 @@ const Contact = () => {
                     required
                   />
                 </Form.Group>
-
-                <Button
+                                <Button
                   className="rounded custom-btn btn-hover"
                   type="submit"
                   style={{
                     backgroundColor: "#52dcc5",
                     border: "none",
                     color: "black",
+                    display: "flex"
                   }}
                 >
                   Send Feedback
+            <img
+                  src={puu}
+                  alt="Allan Kris Tiangco"
+                  style={{
+                    width: "50pk",
+                    height: "50px",
+                    borderRadius: "10px",
+                    objectFit: "cover",
+                    paddingLeft: "5%",
+                  }}
+                  />
                 </Button>
+                
               </Form>
-            </div>
+              </div>
             <div style={{ paddingLeft: "10%" }}>
               <img
                 src={medtek}
