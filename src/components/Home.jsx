@@ -10,7 +10,7 @@ const Home = () => {
       <Card className="container custom-card">
         <Card.Body>
           <Card.Title className="font-weight-bold">
-            <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>Welcome to Allan's Project</h1>
+            <h1 style={{ textDecoration: "underline", color:"#ffffff" }}>Allan's MEDTEK Project</h1>
           </Card.Title>
           <br />
           <Card.Text>
@@ -26,6 +26,11 @@ const Home = () => {
               fluid
             />
           </Card.Text>
+          <div
+              className="section-bubble"
+              style={{ backgroundColor: "black" }}
+            >
+              <div>
           <Card.Text className="paragraph-indent">
             As part of my training in sterile processing, I am currently working
             on a project focused on sterilizers used in the Sterile Processing
@@ -73,8 +78,10 @@ const Home = () => {
               >
                 Group Project
               </button>
-            </Link>
+                </Link>
           </Card.Text>
+            </div>
+          </div>
         </Card.Body>
       </Card>
     </div>

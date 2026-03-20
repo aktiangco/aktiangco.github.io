@@ -234,7 +234,7 @@ const Group = () => {
                 <h2>Dry Heat and IUSS</h2>
                 <h4>Tiangco, Allan</h4>
                 <a
-                  href="https://aktiangco.github.io/#/error" // update link here
+                  href="https://aktiangco.github.io/#/presentation" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn btn-hover"

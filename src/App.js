@@ -16,6 +16,7 @@ import Vpro from './components/topics/Vpro';
 import Iuss from './components/topics/Iuss';
 import Podcast from './components/topics/Podcast';
 import Group from './components/topics/Group';
+import Presentation from './components/topics/Presentation';
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import './App.css';
 
@@ -39,6 +40,7 @@ const App = () => (
         <Route path="/iuss" element={<Iuss />} />
         <Route path="/podcast" element={<Podcast />} />
         <Route path="/group" element={<Group />} />
+        <Route path="/presentation" element={<Presentation />} /> 
       </Routes>
     </div>
     <Footer/>

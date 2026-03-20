@@ -394,7 +394,7 @@ const Dryheat = () => {
                   <li>Ensures safety and compliance</li>
                 </ul>
               </div>
-              <div>
+              <div style={{ paddingLeft:"10%"}}>
                 <img
                   src={test}
                   className="section-image"

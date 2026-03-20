@@ -41,6 +41,8 @@ function Podcast() {
               </div>
             </div>
             <br />
+            <div className="section-bubble" style={{ backgroundColor: "black" }}>
+            <div>
             <Card.Text className="paragraph-indent">
               After learning more about the relationship between the Operating
               Room (OR) and the Sterile Processing Department (SPD), I realized
@@ -78,8 +80,11 @@ function Podcast() {
               when needed. Learning about the <b style= {{color: "white"}}>connection between OR and SPD
               helped me understand how important cooperation between departments
               is in creating a safe environment for both patients and healthcare
-              professionals.</b>
-            </Card.Text>
+                  professionals.</b>
+                
+              </Card.Text>
+              </div>
+              </div>
           </Card.Body>
         </Card>
       </div>

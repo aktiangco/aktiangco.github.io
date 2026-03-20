@@ -232,7 +232,7 @@ const Ltgp = () => {
                   }}
                 />
               </div>
-              <div>
+              <div style={{ paddingLeft:"10%"}}>
                 <h2>⚠️ Safety (LTGP vs EO — VERY IMPORTANT)</h2>
 
                 <h4 style={{ textDecoration: "underline" }}>LTGP Safety</h4>
@@ -402,7 +402,7 @@ const Ltgp = () => {
                   }}
                 />
               </div>
-              <div>
+              <div style={{ paddingLeft:"10%"}}>
                 <h2>Wrappers & Containers (LTGP)</h2>
 
                 <h4 style={{ textDecoration: "underline" }}>✅ Can Use</h4>
@@ -527,7 +527,7 @@ const Ltgp = () => {
           </Card.Text>
           <Card.Text>
             <div className="section-bubble">
-              <div>
+              <div style={{ paddingLeft:"10%"}}>
                 <img
                   src={monitor}
                   className="section-image"
@@ -563,7 +563,7 @@ const Ltgp = () => {
                   }}
                 />
               </div>
-              <div>
+              <div style={{ paddingLeft:"10%"}}>
                 <h2>How to test Sterilizer</h2>
                 <h4 style={{ textDecoration: "underline" }}>
                   Physical Monitoring

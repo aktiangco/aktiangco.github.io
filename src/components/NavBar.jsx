@@ -5,6 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import medtek from "../assets/images/medtek.png";
+import { Asterisk } from "react-bootstrap-icons";
 
 const NavBar = () => {
   const [expanded, setExpanded] = useState(false);
@@ -34,7 +35,7 @@ const NavBar = () => {
         <Navbar.Brand as={Link} to="/" onClick={closeMenu}>
           <div className="logo-header">
             <img src={medtek} alt="logo" className="logo-img" />
-            <h2 className="logo-text">MedTek Hayward</h2>
+            <h2 className="logo-text">MEDTEK Hayward</h2>
           </div>
         </Navbar.Brand>
 
@@ -52,31 +53,31 @@ const NavBar = () => {
               </NavDropdown.Item>
 
               <NavDropdown.Item as={Link} to="/steam" onClick={closeMenu}>
-                Steam
+                <Asterisk size={10} /> Steam
               </NavDropdown.Item>
 
               <NavDropdown.Item as={Link} to="/eo" onClick={closeMenu}>
-                Ethylene Oxide (EO)
+                <Asterisk size={10} /> Ethylene Oxide (EO)
               </NavDropdown.Item>
 
               <NavDropdown.Item as={Link} to="/ltgp" onClick={closeMenu}>
-                Low-Temp Gas Plasma (LTGP)
+                <Asterisk size={10} /> Low-Temp Gas Plasma (LTGP)
               </NavDropdown.Item>
 
               <NavDropdown.Item as={Link} to="/vpro" onClick={closeMenu}>
-                Low-Temp Hydrogen Peroxide (V-PRO)
+                <Asterisk size={10} /> Low-Temp Hydrogen Peroxide (V-PRO)
               </NavDropdown.Item>
 
               <NavDropdown.Item as={Link} to="/ozone" onClick={closeMenu}>
-                Hydrogen Peroxide Ozone
+                <Asterisk size={10} /> Hydrogen Peroxide Ozone
               </NavDropdown.Item>
 
               <NavDropdown.Item as={Link} to="/iuss" onClick={closeMenu}>
-                IUSS
+                <Asterisk size={10} /> IUSS
               </NavDropdown.Item>
 
               <NavDropdown.Item as={Link} to="/dryheat" onClick={closeMenu}>
-                Dry Heat
+                <Asterisk size={10} /> Dry Heat
               </NavDropdown.Item>
             </NavDropdown>
 

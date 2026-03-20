@@ -476,7 +476,7 @@ const Vpro = () => {
           </Card.Text>
           <Card.Text>
             <div className="section-bubble">
-              <div>
+              <div style={{ paddingLeft:"10%"}}>
                 <img
                   src={monitor}
                   className="section-image"
@@ -512,7 +512,7 @@ const Vpro = () => {
                   }}
                 />
               </div>
-              <div>
+              <div style={{ paddingLeft:"10%"}}>
                 <h2>How to test Sterilizer</h2>
                 <h4 style={{ textDecoration: "underline" }}>
                   Physical Monitoring

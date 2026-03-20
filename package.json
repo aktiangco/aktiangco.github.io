@@ -2,7 +2,7 @@
   "name": "spd-sterilizers",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aktiangco.github.io/",
+  "homepage": "https://aktiangco.github.io/medtek/",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "bootstrap": "^5.3.8",

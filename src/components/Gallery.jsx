@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
+import machine from "../assets/images/all.png";
 
 const Gallery = () => {
   const linkStyle = {
@@ -17,8 +18,14 @@ const Gallery = () => {
               Sterilization
             </h1>
           </Card.Title>
-          <Card.Text>
-            <div style={{ display: "flex", justifyContent: "space-around" }}>
+          <Card.Text
+            className="section-bubble"
+            style={{ backgroundColor: "black" }}
+          >
+            <div
+              style={{ display: "flex", justifyContent: "space-around" }}
+              className="paragraph-indent"
+            >
               Sterilization is a critical process in healthcare that completely
               destroys or eliminates all forms of microorganisms, including
               bacteria, viruses, fungi, and bacterial spores, from medical
@@ -42,56 +49,74 @@ const Gallery = () => {
               healthcare-associated infections.
             </div>
           </Card.Text>
-          <h4> Sterilizer Methods</h4>
-          <ul>
-            <li>
-              <Link className="nav-item " style={linkStyle} to="/Steam">
-                <button className="nav-link rounded method-link">Steam</button>
-              </Link>
-            </li>
-            <li>
-              <Link className="nav-item" style={linkStyle} to="/Eo">
-                <button className="nav-link rounded method-link">
-                  Ethylene Oxide (EO)
-                </button>
-              </Link>
-            </li>
-            <li>
-              <Link className="nav-item" style={linkStyle} to="/Ltgp">
-                <button className="nav-link rounded method-link">
-                  Low-Temp Gas Plasma(LTGP)
-                </button>
-              </Link>
-            </li>
-            <li>
-              <Link className="nav-item" style={linkStyle} to="/Vpro">
-                <button className="nav-link rounded method-link">
-                  Low-Temp Hydrogen Peroxide (V-PRO)
-                </button>
-              </Link>
-            </li>
-            <li>
-              <Link className="nav-item" style={linkStyle} to="/Ozone">
-                <button className="nav-link rounded method-link">
-                  Hydrogen Peroxide Ozone
-                </button>
-              </Link>
-            </li>
-            <li>
-              <Link className="nav-item" style={linkStyle} to="/Iuss">
-                <button className="nav-link rounded method-link">
-                  Immediate-Use Steam Sterilization (IUSS)
-                </button>
-              </Link>
-            </li>
-            <li>
-              <Link className="nav-item" style={linkStyle} to="/Dryheat">
-                <button className="nav-link rounded method-link">
-                  DRY HEAT
-                </button>
-              </Link>
-            </li>
-          </ul>
+          <div className="section-bubble" style={{ backgroundColor: "black" }}>
+            <div>
+              <ul>
+                <h4> Sterilizer Methods</h4>
+                <li>
+                  <Link className="nav-item " style={linkStyle} to="/Steam">
+                    <button className="nav-link rounded method-link">
+                      Steam
+                    </button>
+                  </Link>
+                </li>
+                <li>
+                  <Link className="nav-item" style={linkStyle} to="/Eo">
+                    <button className="nav-link rounded method-link">
+                      Ethylene Oxide (EO)
+                    </button>
+                  </Link>
+                </li>
+                <li>
+                  <Link className="nav-item" style={linkStyle} to="/Ltgp">
+                    <button className="nav-link rounded method-link">
+                      Low-Temp Gas Plasma(LTGP)
+                    </button>
+                  </Link>
+                </li>
+                <li>
+                  <Link className="nav-item" style={linkStyle} to="/Vpro">
+                    <button className="nav-link rounded method-link">
+                      Low-Temp Hydrogen Peroxide (V-PRO)
+                    </button>
+                  </Link>
+                </li>
+                <li>
+                  <Link className="nav-item" style={linkStyle} to="/Ozone">
+                    <button className="nav-link rounded method-link">
+                      Hydrogen Peroxide Ozone
+                    </button>
+                  </Link>
+                </li>
+                <li>
+                  <Link className="nav-item" style={linkStyle} to="/Iuss">
+                    <button className="nav-link rounded method-link">
+                      Immediate-Use Steam Sterilization (IUSS)
+                    </button>
+                  </Link>
+                </li>
+                <li>
+                  <Link className="nav-item" style={linkStyle} to="/Dryheat">
+                    <button className="nav-link rounded method-link">
+                      DRY HEAT
+                    </button>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div style={{ paddingLeft: "10%" }}>
+              <img
+                src={machine}
+                className="section-image"
+                style={{
+                  width: "300px",
+                  height: "50%",
+                  borderRadius: "10%",
+                  objectFit: "cover",
+                }}
+              />
+            </div>
+          </div>
           <Card.Text></Card.Text>
         </Card.Body>
       </Card>

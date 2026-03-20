@@ -33,6 +33,11 @@ const About = () => {
                   objectFit: "cover",
                 }}
               />
+                          <div
+              className="section-bubble"
+              style={{ backgroundColor: "black" }}
+            >
+              <div>
               <div>
                 <h2>Allan Kris Tiangco</h2>
                 <h4>Medtek College Hayward Student</h4>
@@ -69,43 +74,54 @@ const About = () => {
                   </div>
                 </div>
               </div>
-            </div>
+                </div>
+              </div>
+              </div>
             <br />
-            <Card.Text className="paragraph-indent">
-              I am a dedicated and reliable professional with over 20 years of
-              experience working in healthcare logistics, supply chain, and
-              fast-paced operational environments. Currently working as a
-              Distribution Clerk at UCSF Benioff Children's Hospital Oakland, I
-              specialize in inventory management, supply distribution, and
-              supporting medical teams to ensure departments have the resources
-              they need to provide quality patient care.
-            </Card.Text>
-            <Card.Text className="paragraph-indent">
-              I am currently expanding my skills by studying Sterile Processing
-              at Medtek College, where I’m building knowledge in medical
-              instrument sterilization, infection control, and healthcare safety
-              practices. My goal is to continue growing within the healthcare
-              field and contribute to safe and efficient patient care
-              environments.
-            </Card.Text>
-            <Card.Text className="paragraph-indent">
-              Throughout my career, I’ve developed strong skills in
-              communication, organization, and teamwork. I’m known for being
-              dependable, adaptable, and able to perform well under pressure
-              while maintaining professionalism and attention to detail.
-            </Card.Text>
-            <Card.Text className="paragraph-indent">
-              Flexibility is key, as we understand the demanding schedules of
-              working Sterile Technician. Medtek College Hayward provides
-              flexible learning options, allowing Sterile Processing to access
-              educational materials at their convenience.
-            </Card.Text>
-            <Card.Text className="paragraph-indent">
-              Outside of work and school, I enjoy watching anime and staying
-              connected with pop culture. In my free time, I also enjoy spending
-              time with my family, building LEGO sets, riding my bike, and
-              working on cars, which help me relax and recharge after busy days.
-            </Card.Text>
+            <div
+              className="section-bubble"
+              style={{ backgroundColor: "black" }}
+            >
+              <div>
+                <Card.Text className="paragraph-indent">
+                  I am a dedicated and reliable professional with over 20 years
+                  of experience working in healthcare logistics, supply chain,
+                  and fast-paced operational environments. Currently working as
+                  a Distribution Clerk at UCSF Benioff Children's Hospital
+                  Oakland, I specialize in inventory management, supply
+                  distribution, and supporting medical teams to ensure
+                  departments have the resources they need to provide quality
+                  patient care.
+                </Card.Text>
+                <Card.Text className="paragraph-indent">
+                  I am currently expanding my skills by studying Sterile
+                  Processing at Medtek College, where I’m building knowledge in
+                  medical instrument sterilization, infection control, and
+                  healthcare safety practices. My goal is to continue growing
+                  within the healthcare field and contribute to safe and
+                  efficient patient care environments.
+                </Card.Text>
+                <Card.Text className="paragraph-indent">
+                  Throughout my career, I’ve developed strong skills in
+                  communication, organization, and teamwork. I’m known for being
+                  dependable, adaptable, and able to perform well under pressure
+                  while maintaining professionalism and attention to detail.
+                </Card.Text>
+                <Card.Text className="paragraph-indent">
+                  Flexibility is key, as we understand the demanding schedules
+                  of working Sterile Technician. Medtek College Hayward provides
+                  flexible learning options, allowing Sterile Processing to
+                  access educational materials at their convenience.
+                </Card.Text>
+                <Card.Text className="paragraph-indent">
+                  Outside of work and school, I enjoy watching anime and staying
+                  connected with pop culture. In my free time, I also enjoy
+                  spending time with my family, building LEGO sets, riding my
+                  bike, and working on cars, which help me relax and recharge
+                  after busy days.
+                </Card.Text>
+              </div>
+            </div>
           </Card.Body>
         </Card>
       </div>
