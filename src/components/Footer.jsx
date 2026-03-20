@@ -10,7 +10,7 @@ const Footer = () => {
     >
       <div>
         <div style={{ display: "flex" }}>
-          <div style={{ padding: "10px" }}>Created by Allan</div>
+         {/* <div style={{ padding: "10px" }}>Created by Allan</div> */} 
 
           <div style={{ padding: "10px" }}>
             <a
