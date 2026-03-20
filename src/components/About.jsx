@@ -37,7 +37,7 @@ const About = () => {
                       Allan Kris Tiangco
                     </h2>
                     <h4>Medtek College Hayward Student</h4>
-                    <div style={{ display: "flex", justifyContent:"center" }} >
+                    <div style={{ display: "flex", justifyContent:"flex-start" }} >
                       <div style={{ padding: "10px" }}>
                         <a
                           style={{ color: "white" }}
@@ -58,7 +58,7 @@ const About = () => {
                           <Github />
                         </a>
                       </div>
-                      <div style={{ padding: "10px", paddingRight:"40%" }}>
+                      <div style={{ padding: "10px"}}>
                         <a
                           style={{ color: "white" }}
                           href="https://www.instagram.com/akvt808/"
