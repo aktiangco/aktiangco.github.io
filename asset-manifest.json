@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/medtek/static/css/main.51c1e786.css",
-    "main.js": "/medtek/static/js/main.1e10731b.js",
+    "main.js": "/medtek/static/js/main.30b135a3.js",
     "static/media/group3.png": "/medtek/static/media/group3.58a7a2a8757574fa40d9.png",
     "static/media/eric2.png": "/medtek/static/media/eric2.21b59509ec84e1bba739.png",
     "static/media/cesar2.png": "/medtek/static/media/cesar2.89a53700a311a0e0cf11.png",
@@ -74,6 +74,7 @@
     "static/media/steam-autoclave.png": "/medtek/static/media/steam-autoclave.15b2943a130083356168.png",
     "static/media/steam-bowie.png": "/medtek/static/media/steam-bowie.0721dce6c7c805af5494.png",
     "static/media/vpro-machine2.png": "/medtek/static/media/vpro-machine2.cc3bc2ca24bcdb6490c1.png",
+    "static/media/anyaa.png": "/medtek/static/media/anyaa.1a7728d5311fbbece7d4.png",
     "static/media/drytray.png": "/medtek/static/media/drytray.0d38d56f60a767762121.png",
     "static/media/medtek.png": "/medtek/static/media/medtek.d0949babc2345f108af3.png",
     "static/media/dryheat-machine.png": "/medtek/static/media/dryheat-machine.8e926281dc064e9b75b8.png",
@@ -91,10 +92,10 @@
     "static/media/eo-bi.png": "/medtek/static/media/eo-bi.49f212388947494d71d3.png",
     "index.html": "/medtek/index.html",
     "main.51c1e786.css.map": "/medtek/static/css/main.51c1e786.css.map",
-    "main.1e10731b.js.map": "/medtek/static/js/main.1e10731b.js.map"
+    "main.30b135a3.js.map": "/medtek/static/js/main.30b135a3.js.map"
   },
   "entrypoints": [
     "static/css/main.51c1e786.css",
-    "static/js/main.1e10731b.js"
+    "static/js/main.30b135a3.js"
   ]
 }
