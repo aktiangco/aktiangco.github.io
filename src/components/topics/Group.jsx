@@ -58,7 +58,7 @@ const Group = () => {
                 <h2>Steam Sterilizer</h2>
                 <h5>Alcala, Eric</h5>
                 <a
-                  href="https://aktiangco.github.io/#/medtek/error" // update link here
+                  href="https://aktiangco.github.io/medtek/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn btn-hover"
@@ -94,7 +94,7 @@ const Group = () => {
                 <h2>Ethylene Oxide</h2>
                 <h4>Valquez Gonzalez, Adiel</h4>
                 <a
-                  href="https://aktiangco.github.io/#/medtek/error" // update link here
+                  href="https://aktiangco.github.io/medtek/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn btn-hover"
@@ -129,7 +129,7 @@ const Group = () => {
                 <h2>Low-Temperature Gas Plasma</h2>
                 <h4>Bejarin, John</h4>
                 <a
-                  href="https://aktiangco.github.io/#/medtek/error" // update link here
+                  href="https://aktiangco.github.io/medtek/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn btn-hover"
@@ -164,7 +164,7 @@ const Group = () => {
                 <h2>Low-Temperature Hydrogen Peroxide(V-Pro)</h2>
                 <h4>Trejo, Cesar</h4>
                 <a
-                  href="https://aktiangco.github.io/#/medtek/error" // update link here
+                  href="https://aktiangco.github.io/medtek/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn btn-hover"
@@ -199,7 +199,7 @@ const Group = () => {
                 <h2>Hydrogen Peroxide Ozone Sterilization</h2>
                 <h4>Cofield, Vinessa</h4>
                 <a
-                  href="https://aktiangco.github.io/#/medtek/error" // update link here
+                  href="https://aktiangco.github.io/medtek/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn btn-hover"
@@ -234,7 +234,7 @@ const Group = () => {
                 <h2>Dry Heat and IUSS</h2>
                 <h4>Tiangco, Allan</h4>
                 <a
-                  href="https://aktiangco.github.io/#/medtek/presentation" // update link here
+                  href="https://aktiangco.github.io/medtek/#/presentation" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn btn-hover"
