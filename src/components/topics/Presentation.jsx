@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import profile from "../../assets/images/logo.png";
 import machine from "../../assets/images/iuss/iuss-machine.png";
 import cycle from "../../assets/images/iuss/iuss-cycle.png";
 import cycle1 from "../../assets/images/iuss/iuss-cycle1.png";
@@ -46,7 +45,7 @@ const Presentation = () => {
                   objectFit: "cover",
                 }}
               />
-              <div >
+              <div>
                 <h2>IUSS Sterilization Facts:</h2>
                 <ul>
                   <li>
@@ -134,9 +133,7 @@ const Presentation = () => {
                   </li>
                 </ul>
 
-                <strong>
-                  Important Notes
-                </strong>
+                <strong>Important Notes</strong>
                 <ul>
                   <li>
                     IUSS cycles{" "}
@@ -159,7 +156,7 @@ const Presentation = () => {
                   </li>
                 </ul>
               </div>
-              <div style={{ paddingLeft:"10%"}}>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={cycle1}
                   className="section-image"
@@ -594,8 +591,8 @@ const Presentation = () => {
                 </ul>
               </div>
             </div>
-                  </Card.Text>
-                  <Card.Title className="font-weight-bold">
+          </Card.Text>
+          <Card.Title className="font-weight-bold">
             <h1 style={{ textDecoration: "underline", color: "#ffffff" }}>
               Dry Heat Sterilizer
             </h1>
@@ -603,16 +600,16 @@ const Presentation = () => {
           <br />
           <Card.Text>
             <div className="section-bubble">
-            <img
-                  src={drymachine}
-                  className="section-image"
-                  style={{
-                    width: "400px",
-                    height: "50%",
-                    borderRadius: "10%",
-                    objectFit: "cover",
-                  }}
-                />
+              <img
+                src={drymachine}
+                className="section-image"
+                style={{
+                  width: "400px",
+                  height: "50%",
+                  borderRadius: "10%",
+                  objectFit: "cover",
+                }}
+              />
               <div>
                 <h2>Dry Heat Sterilization Facts:</h2>
                 <ul>
@@ -730,7 +727,7 @@ const Presentation = () => {
           </Card.Text>
           <Card.Text>
             <div className="section-bubble">
-            <div>
+              <div>
                 <img
                   src={dryloading}
                   className="section-image"
@@ -741,8 +738,8 @@ const Presentation = () => {
                     objectFit: "cover",
                   }}
                 />
-                       <br />
-                      <br />
+                <br />
+                <br />
                 <br />
                 <br />
                 <img
@@ -852,7 +849,7 @@ const Presentation = () => {
                   <li>Any packaging not labeled for high-temperature use</li>
                 </ul>
               </div>
-              <div >
+              <div>
                 <img
                   src={drywrapper}
                   className="section-image"
@@ -880,16 +877,16 @@ const Presentation = () => {
           </Card.Text>
           <Card.Text>
             <div className="section-bubble">
-            <img
-                  src={procon}
-                  className="section-image"
-                  style={{
-                    width: "300px",
-                    height: "50%",
-                    borderRadius: "10%",
-                    objectFit: "cover",
-                  }}
-                />
+              <img
+                src={procon}
+                className="section-image"
+                style={{
+                  width: "300px",
+                  height: "50%",
+                  borderRadius: "10%",
+                  objectFit: "cover",
+                }}
+              />
               <div>
                 <h2>Pros and Cons</h2>
                 <h4 style={{ textDecoration: "underline" }}>Pros:</h4>
@@ -974,7 +971,7 @@ const Presentation = () => {
                   <li>Ensures safety and compliance</li>
                 </ul>
               </div>
-              <div style={{ paddingLeft:"10%"}}>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={drytest}
                   className="section-image"
@@ -985,7 +982,6 @@ const Presentation = () => {
                     objectFit: "cover",
                   }}
                 />
-               
               </div>
             </div>
           </Card.Text>

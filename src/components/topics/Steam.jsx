@@ -38,7 +38,7 @@ const Steam = () => {
                 }}
               />
               <div>
-                <h2>Steam Sterilizers Facts:</h2>
+                <h2>Steam Sterilizers Facts</h2>
                 <ul>
                   <li>
                     Steam sterilization is the most widely used sterilization
@@ -276,7 +276,7 @@ const Steam = () => {
               </div>
 
               <div>
-                <h2>Loading and Unloading</h2>
+                <h2>Loading & Unloading</h2>
                 <h4 style={{ textDecoration: "underline" }}>Loading</h4>
                 <h5>Do's</h5>
                 <ul>
@@ -374,7 +374,7 @@ const Steam = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-                <h2>Wrappers and Containers</h2>
+                <h2>Wrappers & Containers</h2>
                 <div>
                   <div>
                     <h4 style={{ textDecoration: "underline" }}>
@@ -494,7 +494,7 @@ const Steam = () => {
                 }}
               />
               <div>
-                <h2>Pros and Cons</h2>
+                <h2>Pros & Cons</h2>
                 <div>
                   <div>
                     <h4 style={{ textDecoration: "underline" }}>Pros:</h4>

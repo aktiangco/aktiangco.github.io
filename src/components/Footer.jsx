@@ -1,10 +1,8 @@
 import React from "react";
 import {
   Instagram,
-  Facebook,
   Linkedin,
   Github,
-  Person,
 } from "react-bootstrap-icons";
 
 const Footer = () => {

@@ -39,7 +39,7 @@ const Ltgp = () => {
                   }}
                 />
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>LTGP Sterilization Facts</h2>
 
                 <ul>
@@ -180,7 +180,7 @@ const Ltgp = () => {
                   <li>Maximum load temperature: 131°F (55°C)</li>
                 </ul>
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={cycle1}
                   className="section-image"
@@ -232,7 +232,7 @@ const Ltgp = () => {
                   }}
                 />
               </div>
-              <div style={{ paddingLeft:"10%"}}>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>⚠️ Safety (LTGP vs EO — VERY IMPORTANT)</h2>
 
                 <h4 style={{ textDecoration: "underline" }}>LTGP Safety</h4>
@@ -287,7 +287,7 @@ const Ltgp = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-                <h2>Loading and Unloading</h2>
+                <h2>Loading & Unloading</h2>
                 <h4 style={{ textDecoration: "underline" }}>
                   Loading the Sterilizer
                 </h4>
@@ -350,7 +350,7 @@ const Ltgp = () => {
                   <li>Improper loading can prevent effective sterilization</li>
                 </ul>
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={loading}
                   className="section-image"
@@ -402,7 +402,7 @@ const Ltgp = () => {
                   }}
                 />
               </div>
-              <div style={{ paddingLeft:"10%"}}>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>Wrappers & Containers (LTGP)</h2>
 
                 <h4 style={{ textDecoration: "underline" }}>✅ Can Use</h4>
@@ -467,7 +467,7 @@ const Ltgp = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-                <h2>Pros and Cons</h2>
+                <h2>Pros & Cons</h2>
                 <h4 style={{ textDecoration: "underline" }}>Pros</h4>
 
                 <ul>
@@ -513,21 +513,23 @@ const Ltgp = () => {
                   </li>
                 </ul>
               </div>
-              <img
-                src={procon}
-                className="section-image"
-                style={{
-                  width: "300px",
-                  height: "50%",
-                  borderRadius: "10%",
-                  objectFit: "cover",
-                }}
-              />
+              <div style={{ paddingLeft: "10%" }}>
+                <img
+                  src={procon}
+                  className="section-image"
+                  style={{
+                    width: "300px",
+                    height: "50%",
+                    borderRadius: "10%",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
             </div>
           </Card.Text>
           <Card.Text>
             <div className="section-bubble">
-              <div style={{ paddingLeft:"10%"}}>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={monitor}
                   className="section-image"
@@ -563,7 +565,7 @@ const Ltgp = () => {
                   }}
                 />
               </div>
-              <div style={{ paddingLeft:"10%"}}>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>How to test Sterilizer</h2>
                 <h4 style={{ textDecoration: "underline" }}>
                   Physical Monitoring

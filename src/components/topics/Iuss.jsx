@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import profile from "../../assets/images/logo.png";
 import machine from "../../assets/images/iuss/iuss-machine.png";
 import cycle from "../../assets/images/iuss/iuss-cycle.png";
 import cycle1 from "../../assets/images/iuss/iuss-cycle1.png";
@@ -38,7 +37,7 @@ const Iuss = () => {
                   objectFit: "cover",
                 }}
               />
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>IUSS Sterilization Facts:</h2>
                 <ul>
                   <li>
@@ -126,9 +125,7 @@ const Iuss = () => {
                   </li>
                 </ul>
 
-                <strong>
-                  Important Notes
-                </strong>
+                <strong>Important Notes</strong>
                 <ul>
                   <li>
                     IUSS cycles{" "}
@@ -151,7 +148,7 @@ const Iuss = () => {
                   </li>
                 </ul>
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={cycle1}
                   className="section-image"
@@ -215,8 +212,8 @@ const Iuss = () => {
                   }}
                 />
               </div>
-              <div>
-                <h2>Loading and Unloading</h2>
+              <div style={{ paddingLeft: "10%" }}>
+                <h2>Loading & Unloading</h2>
                 <h4 style={{ textDecoration: "underline" }}>Loading</h4>
                 <ul>
                   <li>
@@ -312,7 +309,7 @@ const Iuss = () => {
                   </li>
                 </ul>
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={flashpak}
                   className="section-image"
@@ -352,7 +349,7 @@ const Iuss = () => {
                   }}
                 />
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>Cleaning IUSS Containers</h2>
                 <ul>
                   <li>Containers must be cleaned after every use.</li>
@@ -398,7 +395,7 @@ const Iuss = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-                <h2>Pros and Cons</h2>
+                <h2>Pros & Cons</h2>
                 <h4 style={{ textDecoration: "underline" }}>Pros</h4>
                 <ul>
                   <li>
@@ -472,16 +469,18 @@ const Iuss = () => {
                   </li>
                 </ul>
               </div>
-              <img
-                src={procon}
-                className="section-image"
-                style={{
-                  width: "400px",
-                  height: "100%",
-                  borderRadius: "10%",
-                  objectFit: "cover",
-                }}
-              />
+              <div style={{ paddingLeft: "10%" }}>
+                <img
+                  src={procon}
+                  className="section-image"
+                  style={{
+                    width: "400px",
+                    height: "100%",
+                    borderRadius: "10%",
+                    objectFit: "cover",
+                  }}
+                />
+              </div>
             </div>
           </Card.Text>
           <Card.Text>
@@ -522,7 +521,7 @@ const Iuss = () => {
                   }}
                 />
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>How to test Sterilizer</h2>
                 <h4 style={{ textDecoration: "underline" }}>
                   Physical Monitoring

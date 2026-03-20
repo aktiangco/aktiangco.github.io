@@ -23,18 +23,18 @@ const Dryheat = () => {
           <br />
           <Card.Text>
             <div className="section-bubble">
-            <img
-                  src={machine}
-                  className="section-image"
-                  style={{
-                    width: "400px",
-                    height: "50%",
-                    borderRadius: "10%",
-                    objectFit: "cover",
-                  }}
-                />
-              <div>
-                <h2>Dry Heat Sterilization Facts:</h2>
+              <img
+                src={machine}
+                className="section-image"
+                style={{
+                  width: "400px",
+                  height: "50%",
+                  borderRadius: "10%",
+                  objectFit: "cover",
+                }}
+              />
+              <div style={{ paddingLeft: "10%" }}>
+                <h2>Dry Heat Sterilization Facts</h2>
                 <ul>
                   <li>
                     Uses high temperatures without steam to kill microorganisms
@@ -101,7 +101,7 @@ const Dryheat = () => {
                   </li>
                 </ul>
 
-                <strong>Important Notes:</strong>
+                <strong>Important Notes</strong>
                 <ul>
                   <li>
                     Always follow manufacturer’s instructions for cycle
@@ -121,7 +121,7 @@ const Dryheat = () => {
                   </li>
                 </ul>
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={cycle}
                   className="section-image"
@@ -132,7 +132,6 @@ const Dryheat = () => {
                     objectFit: "cover",
                   }}
                 />
-                <br />
                 <br />
                 <br />
                 <img
@@ -150,7 +149,7 @@ const Dryheat = () => {
           </Card.Text>
           <Card.Text>
             <div className="section-bubble">
-            <div>
+              <div>
                 <img
                   src={loading}
                   className="section-image"
@@ -161,8 +160,8 @@ const Dryheat = () => {
                     objectFit: "cover",
                   }}
                 />
-                       <br />
-                      <br />
+                <br />
+                <br />
                 <br />
                 <br />
                 <img
@@ -176,8 +175,8 @@ const Dryheat = () => {
                   }}
                 />
               </div>
-              <div>
-                <h2>Loading and Unloading</h2>
+              <div style={{ paddingLeft: "10%" }}>
+                <h2>Loading & Unloading</h2>
                 <h4 style={{ textDecoration: "underline" }}>Loading:</h4>
                 <ul>
                   <li>
@@ -222,7 +221,7 @@ const Dryheat = () => {
                   <li>Do not use items if packaging is compromised</li>
                 </ul>
 
-                <strong>Important Notes:</strong>
+                <strong>Important Notes</strong>
                 <ul>
                   <li>
                     Proper loading ensures effective sterilization by allowing
@@ -272,7 +271,7 @@ const Dryheat = () => {
                   <li>Any packaging not labeled for high-temperature use</li>
                 </ul>
               </div>
-              <div >
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={wrapper}
                   className="section-image"
@@ -300,18 +299,18 @@ const Dryheat = () => {
           </Card.Text>
           <Card.Text>
             <div className="section-bubble">
-            <img
-                  src={procon}
-                  className="section-image"
-                  style={{
-                    width: "300px",
-                    height: "50%",
-                    borderRadius: "10%",
-                    objectFit: "cover",
-                  }}
-                />
-              <div>
-                <h2>Pros and Cons</h2>
+              <img
+                src={procon}
+                className="section-image"
+                style={{
+                  width: "300px",
+                  height: "50%",
+                  borderRadius: "10%",
+                  objectFit: "cover",
+                }}
+              />
+              <div style={{ paddingLeft: "10%" }}>
+                <h2>Pros & Cons</h2>
                 <h4 style={{ textDecoration: "underline" }}>Pros:</h4>
                 <ul>
                   <li>
@@ -343,7 +342,7 @@ const Dryheat = () => {
                   </li>
                 </ul>
 
-                <strong>Important Note:</strong>
+                <strong>Important Note</strong>
                 <ul>
                   <li>
                     Dry heat is typically used only when steam sterilization is
@@ -394,7 +393,7 @@ const Dryheat = () => {
                   <li>Ensures safety and compliance</li>
                 </ul>
               </div>
-              <div style={{ paddingLeft:"10%"}}>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={test}
                   className="section-image"
@@ -405,7 +404,6 @@ const Dryheat = () => {
                     objectFit: "cover",
                   }}
                 />
-               
               </div>
             </div>
           </Card.Text>

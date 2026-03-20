@@ -28,7 +28,7 @@ const Eo = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-                <h2>EO Sterilization Facts:</h2>
+                <h2>EO Sterilization Facts</h2>
 
                 <ul>
                   <li>
@@ -66,7 +66,7 @@ const Eo = () => {
                   </li>
                 </ul>
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={machine}
                   className="section-image"
@@ -107,7 +107,7 @@ const Eo = () => {
                   }}
                 />
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>EO Sterilization Cycle Phases</h2>
 
                 <ul>
@@ -230,7 +230,7 @@ const Eo = () => {
                   </ul>
                 </ul>
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={safety}
                   className="section-image"
@@ -270,8 +270,8 @@ const Eo = () => {
                   }}
                 />
               </div>
-              <div>
-                <h2>Loading and Unloading</h2>
+              <div style={{ paddingLeft: "10%" }}>
+                <h2>Loading & Unloading</h2>
                 <h4 style={{ textDecoration: "underline" }}>
                   Loading the Sterilizer
                 </h4>
@@ -376,7 +376,7 @@ const Eo = () => {
                     </li>
                   </ul>
 
-                  <strong>Important Reminders:</strong>
+                  <strong>Important Reminders</strong>
                   <ul>
                     <li>Never bypass aeration—this is critical for safety</li>
                     <li>
@@ -387,7 +387,7 @@ const Eo = () => {
                   </ul>
                 </ul>
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={aeration}
                   className="section-image"
@@ -427,7 +427,7 @@ const Eo = () => {
                   }}
                 />
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>Wrappers & Containers</h2>
                 <ul>
                   <li>
@@ -454,7 +454,7 @@ const Eo = () => {
                     </li>
                   </ul>
 
-                  <strong>Important Notes:</strong>
+                  <strong>Important Notes</strong>
                   <ul>
                     <li>
                       Packaging must allow EO gas to enter and exit the package
@@ -473,7 +473,7 @@ const Eo = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-                <h2>Pros and Cons</h2>
+                <h2>Pros & Cons</h2>
                 <h4 style={{ textDecoration: "underline" }}>Pros</h4>
 
                 <ul>
@@ -502,7 +502,7 @@ const Eo = () => {
                   <li>Residual gas must be removed before items can be used</li>
                 </ul>
 
-                <h4 style={{ textDecoration: "underline" }}>Important Note</h4>
+                <strong>Important Note</strong>
                 <ul>
                   <li>
                     EO sterilization is used only when other methods (like
@@ -510,7 +510,7 @@ const Eo = () => {
                   </li>
                 </ul>
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={procon}
                   className="section-image"
@@ -562,7 +562,7 @@ const Eo = () => {
                   }}
                 />
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>How to test Sterilizer</h2>
                 <h4 style={{ textDecoration: "underline" }}>
                   Physical Monitoring

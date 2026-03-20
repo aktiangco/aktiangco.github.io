@@ -4,11 +4,6 @@ import Card from "react-bootstrap/Card";
 import machine from "../assets/images/all.png";
 
 const Gallery = () => {
-  const linkStyle = {
-    textDecoration: "none",
-    color: "#52dcc5",
-  };
-
   return (
     <div>
       <Card className="container custom-card">
@@ -54,49 +49,49 @@ const Gallery = () => {
               <ul>
                 <h4> Sterilizer Methods</h4>
                 <li>
-                  <Link className="nav-item " style={linkStyle} to="/Steam">
+                  <Link className="nav-item link-style "to="/Steam">
                     <button className="nav-link rounded method-link">
                       Steam
                     </button>
                   </Link>
                 </li>
                 <li>
-                  <Link className="nav-item" style={linkStyle} to="/Eo">
+                  <Link className="nav-item link-style" to="/Eo">
                     <button className="nav-link rounded method-link">
                       Ethylene Oxide (EO)
                     </button>
                   </Link>
                 </li>
                 <li>
-                  <Link className="nav-item" style={linkStyle} to="/Ltgp">
+                  <Link className="nav-item link-style" to="/Ltgp">
                     <button className="nav-link rounded method-link">
                       Low-Temp Gas Plasma(LTGP)
                     </button>
                   </Link>
                 </li>
                 <li>
-                  <Link className="nav-item" style={linkStyle} to="/Vpro">
+                  <Link className="nav-item link-style" to="/Vpro">
                     <button className="nav-link rounded method-link">
                       Low-Temp Hydrogen Peroxide (V-PRO)
                     </button>
                   </Link>
                 </li>
                 <li>
-                  <Link className="nav-item" style={linkStyle} to="/Ozone">
+                  <Link className="nav-item  link-style" to="/Ozone">
                     <button className="nav-link rounded method-link">
                       Hydrogen Peroxide Ozone
                     </button>
                   </Link>
                 </li>
                 <li>
-                  <Link className="nav-item" style={linkStyle} to="/Iuss">
+                  <Link className="nav-item link-style" to="/Iuss">
                     <button className="nav-link rounded method-link">
                       Immediate-Use Steam Sterilization (IUSS)
                     </button>
                   </Link>
                 </li>
                 <li>
-                  <Link className="nav-item" style={linkStyle} to="/Dryheat">
+                  <Link className="nav-item link-style" to="/Dryheat">
                     <button className="nav-link rounded method-link">
                       DRY HEAT
                     </button>

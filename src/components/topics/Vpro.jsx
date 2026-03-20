@@ -1,10 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import profile from "../../assets/images/logo.png";
 import machine from "../../assets/images/vpro/vpro-machine2.png";
 import cycle from "../../assets/images/ltgp/ltgp-cycle.png";
 import cycle2 from "../../assets/images/vpro/vpro-cycle2.png";
-
 import safety from "../../assets/images/vpro/vpro-safety.png";
 import loading from "../../assets/images/vpro/vpro-loading.png";
 import unloading from "../../assets/images/vpro/vpro-unloading.png";
@@ -38,7 +36,7 @@ const Vpro = () => {
                   objectFit: "cover",
                 }}
               />
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>VPRO Sterilization Facts</h2>
                 <ul>
                   <li>
@@ -158,7 +156,7 @@ const Vpro = () => {
                   </li>
                 </ul>
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={cycle}
                   className="section-image"
@@ -197,7 +195,7 @@ const Vpro = () => {
                 }}
               />
 
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>⚠️ Safety & Risks</h2>
 
                 <ul>
@@ -236,7 +234,7 @@ const Vpro = () => {
                     <li>Ensure proper ventilation in the work area</li>
                   </ul>
 
-                  <strong>Important Notes:</strong>
+                  <strong>Important Notes</strong>
                   <ul>
                     <li>
                       Only trained personnel should operate the sterilizer
@@ -250,7 +248,7 @@ const Vpro = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-                <h2>Loading and Unloading</h2>
+                <h2>Loading & Unloading</h2>
                 <h4 style={{ textDecoration: "underline" }}>
                   Loading the Sterilizer
                 </h4>
@@ -308,7 +306,7 @@ const Vpro = () => {
                 </ul>
               </div>
 
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={loading}
                   className="section-image"
@@ -360,7 +358,7 @@ const Vpro = () => {
                   }}
                 />
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>Wrappers & Containers</h2>
                 <h4 style={{ textDecoration: "underline" }}>
                   Loading the Sterilizer
@@ -423,7 +421,7 @@ const Vpro = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-                <h2>Pros and Cons</h2>
+                <h2>Pros & Cons</h2>
                 <h4 style={{ textDecoration: "underline" }}>Pros</h4>
 
                 <ul>
@@ -460,7 +458,7 @@ const Vpro = () => {
                   </li>
                 </ul>
               </div>
-              <div>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={procon}
                   className="section-image"
@@ -476,7 +474,7 @@ const Vpro = () => {
           </Card.Text>
           <Card.Text>
             <div className="section-bubble">
-              <div style={{ paddingLeft:"10%"}}>
+              <div style={{ paddingLeft: "10%" }}>
                 <img
                   src={monitor}
                   className="section-image"
@@ -512,7 +510,7 @@ const Vpro = () => {
                   }}
                 />
               </div>
-              <div style={{ paddingLeft:"10%"}}>
+              <div style={{ paddingLeft: "10%" }}>
                 <h2>How to test Sterilizer</h2>
                 <h4 style={{ textDecoration: "underline" }}>
                   Physical Monitoring

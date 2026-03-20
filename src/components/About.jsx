@@ -1,13 +1,10 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { Link } from "react-router-dom";
 import profile from "../assets/images/profile/me.png";
 import {
   Instagram,
-  Facebook,
-  Linkedin,
+   Linkedin,
   Github,
-  Person,
 } from "react-bootstrap-icons";
 
 const About = () => {
@@ -33,50 +30,52 @@ const About = () => {
                   objectFit: "cover",
                 }}
               />
-                          <div
-              className="section-bubble"
-              style={{ backgroundColor: "black" }}
-            >
-              <div>
-              <div>
-                <h2>Allan Kris Tiangco</h2>
-                <h4>Medtek College Hayward Student</h4>
-                <div style={{ display: "flex" }}>
-                  <div style={{ padding: "10px" }}>
-                    <a
-                      style={{ color: "white" }}
-                      href="https://www.linkedin.com/in/allan-kris-tiangco-057a78a0/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Linkedin />
-                    </a>
-                  </div>
-                  <div style={{ padding: "10px" }}>
-                    <a
-                      style={{ color: "white" }}
-                      href="https://github.com/aktiangco"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Github />
-                    </a>
-                  </div>
-                  <div style={{ padding: "10px" }}>
-                    <a
-                      style={{ color: "white" }}
-                      href="https://www.instagram.com/akvt808/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Instagram />
-                    </a>
+              <div
+                className="section-bubble"
+                style={{ backgroundColor: "black" }}
+              >
+                <div>
+                  <div>
+                    <h2 style={{ color: "rgb(199, 199, 191)" }}>
+                      Allan Kris Tiangco
+                    </h2>
+                    <h4>Medtek College Hayward Student</h4>
+                    <div style={{ display: "flex" }}>
+                      <div style={{ padding: "10px" }}>
+                        <a
+                          style={{ color: "white" }}
+                          href="https://www.linkedin.com/in/allan-kris-tiangco-057a78a0/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Linkedin />
+                        </a>
+                      </div>
+                      <div style={{ padding: "10px" }}>
+                        <a
+                          style={{ color: "white" }}
+                          href="https://github.com/aktiangco"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Github />
+                        </a>
+                      </div>
+                      <div style={{ padding: "10px" }}>
+                        <a
+                          style={{ color: "white" }}
+                          href="https://www.instagram.com/akvt808/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Instagram />
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-                </div>
-              </div>
-              </div>
+            </div>
             <br />
             <div
               className="section-bubble"
