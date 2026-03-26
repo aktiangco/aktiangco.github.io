@@ -94,7 +94,7 @@ const Group = () => {
                 <h2>Ethylene Oxide</h2>
                 <h4>Valquez Gonzalez, Adiel</h4>
                 <a
-                  href="https://docs.google.com/presentation/d/14l1uth80SGdgTFibKPFg8JLnNg7OSafm/edit?usp=drivesdk&ouid=101188683522346247590&rtpof=true&sd=true" // update link here
+                  href="https://docs.google.com/presentation/d/1a-6hktsUlwG-F8gi3QlsZDWrzmsGabrJ/edit?slide=id.p1#slide=id.p1" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn btn-hover"
@@ -129,7 +129,7 @@ const Group = () => {
                 <h2>Low-Temperature Gas Plasma</h2>
                 <h4>Bejarin, John</h4>
                 <a
-                  href="https://docs.google.com/presentation/d/1sLInIXCtqKsJvWZEGp1i0Q1AiCY6b1tgNxaDmIrPKRc/edit?usp=sharing" // update link here
+                  href="https://aktiangco.github.io/medtek/#/error" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn btn-hover"
