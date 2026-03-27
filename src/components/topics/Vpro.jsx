@@ -156,7 +156,7 @@ const Vpro = () => {
                   </li>
                 </ul>
               </div>
-              <div style={{ paddingLeft: "10%" }}>
+              <div style={{ paddingLeft: "5%" }}>
                 <img
                   src={cycle}
                   className="section-image"
@@ -458,7 +458,7 @@ const Vpro = () => {
                   </li>
                 </ul>
               </div>
-              <div style={{ paddingLeft: "10%" }}>
+              <div style={{ paddingLeft: "5%" }}>
                 <img
                   src={procon}
                   className="section-image"

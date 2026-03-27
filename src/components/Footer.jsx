@@ -60,7 +60,7 @@ const Footer = () => {
       </div>
       <div>
         <div style={{ padding: "10px" }}>
-          © {new Date().getFullYear()} AKVT808. All rights reserved.
+          © {new Date().getFullYear()}  created by AKVT808.
         </div>
       </div>
     </div>

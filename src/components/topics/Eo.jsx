@@ -230,7 +230,7 @@ const Eo = () => {
                   </ul>
                 </ul>
               </div>
-              <div style={{ paddingLeft: "10%" }}>
+              <div style={{ paddingLeft: "5%" }}>
                 <img
                   src={safety}
                   className="section-image"
@@ -387,7 +387,7 @@ const Eo = () => {
                   </ul>
                 </ul>
               </div>
-              <div style={{ paddingLeft: "10%" }}>
+              <div style={{ paddingLeft: "5%" }}>
                 <img
                   src={aeration}
                   className="section-image"
@@ -510,7 +510,7 @@ const Eo = () => {
                   </li>
                 </ul>
               </div>
-              <div style={{ paddingLeft: "10%" }}>
+              <div style={{ paddingLeft: "5%" }}>
                 <img
                   src={procon}
                   className="section-image"

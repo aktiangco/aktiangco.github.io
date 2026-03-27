@@ -316,7 +316,7 @@ const Ozone = () => {
                   <li>Improper loading may result in sterilization failure</li>
                 </ul>
               </div>
-              <div style={{ paddingLeft: "10%" }}>
+              <div style={{ paddingLeft: "5%" }}>
                 <img
                   src={loading}
                   className="section-image"

@@ -12,7 +12,7 @@ const Home = () => {
         <Card.Body>
           <Card.Title className="font-weight-bold">
             <h1 style={{ textDecoration: "underline", color: "#ffffff" }}>
-              Allan's MEDTEK Project
+              MEDTEK Project
             </h1>
           </Card.Title>
           <br />
