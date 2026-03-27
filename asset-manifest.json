@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/medtek/static/css/main.90b97836.css",
-    "main.js": "/medtek/static/js/main.66e78f9a.js",
+    "main.css": "/medtek/static/css/main.db48c760.css",
+    "main.js": "/medtek/static/js/main.8dff1292.js",
     "static/media/group3.png": "/medtek/static/media/group3.58a7a2a8757574fa40d9.png",
     "static/media/eric2.png": "/medtek/static/media/eric2.21b59509ec84e1bba739.png",
     "static/media/cesar2.png": "/medtek/static/media/cesar2.89a53700a311a0e0cf11.png",
@@ -90,13 +90,20 @@
     "static/media/all2.png": "/medtek/static/media/all2.ecb23b63e7501710d6cf.png",
     "static/media/404.jpg": "/medtek/static/media/404.31898163934ab6672d1b.jpg",
     "static/media/steam-machine.png": "/medtek/static/media/steam-machine.d747f3c210b6f0bc8f59.png",
+    "static/media/contact.png": "/medtek/static/media/contact.d6c45a246af2f3fb5a29.png",
+    "static/media/group.png": "/medtek/static/media/group.08216f21eed3bd4f9bea.png",
+    "static/media/instrument.png": "/medtek/static/media/instrument.f682a9e848ac9e6d08d4.png",
+    "static/media/podcaster.png": "/medtek/static/media/podcaster.d5ba6829394dda0955e6.png",
     "static/media/eo-bi.png": "/medtek/static/media/eo-bi.49f212388947494d71d3.png",
+    "static/media/user.png": "/medtek/static/media/user.1ef57f7f328fca78b1f8.png",
+    "static/media/gallery.png": "/medtek/static/media/gallery.7cab3f2453d183dff56f.png",
+    "static/media/home.png": "/medtek/static/media/home.5cfbb9dba566863d62d0.png",
     "index.html": "/medtek/index.html",
-    "main.90b97836.css.map": "/medtek/static/css/main.90b97836.css.map",
-    "main.66e78f9a.js.map": "/medtek/static/js/main.66e78f9a.js.map"
+    "main.db48c760.css.map": "/medtek/static/css/main.db48c760.css.map",
+    "main.8dff1292.js.map": "/medtek/static/js/main.8dff1292.js.map"
   },
   "entrypoints": [
-    "static/css/main.90b97836.css",
-    "static/js/main.66e78f9a.js"
+    "static/css/main.db48c760.css",
+    "static/js/main.8dff1292.js"
   ]
 }
