@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/medtek/static/css/main.db48c760.css",
-    "main.js": "/medtek/static/js/main.aa99afef.js",
+    "main.js": "/medtek/static/js/main.f0f4b187.js",
     "static/media/group3.png": "/medtek/static/media/group3.58a7a2a8757574fa40d9.png",
     "static/media/eric2.png": "/medtek/static/media/eric2.21b59509ec84e1bba739.png",
     "static/media/cesar2.png": "/medtek/static/media/cesar2.89a53700a311a0e0cf11.png",
@@ -100,10 +100,10 @@
     "static/media/home.png": "/medtek/static/media/home.5cfbb9dba566863d62d0.png",
     "index.html": "/medtek/index.html",
     "main.db48c760.css.map": "/medtek/static/css/main.db48c760.css.map",
-    "main.aa99afef.js.map": "/medtek/static/js/main.aa99afef.js.map"
+    "main.f0f4b187.js.map": "/medtek/static/js/main.f0f4b187.js.map"
   },
   "entrypoints": [
     "static/css/main.db48c760.css",
-    "static/js/main.aa99afef.js"
+    "static/js/main.f0f4b187.js"
   ]
 }
