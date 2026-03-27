@@ -7,6 +7,14 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import medtek from "../assets/images/medtek.png";
 import { Asterisk } from "react-bootstrap-icons";
 import VisitCounter from "./VisitCounter";
+import home from "../assets/images/icons/home.png";
+import machine from "../assets/images/icons/sterilizer.png";
+import podcast from "../assets/images/icons/podcaster.png";
+import group from "../assets/images/icons/group.png";
+import instrument from "../assets/images/icons/instrument.png";
+import photo from "../assets/images/icons/gallery.png";
+import user from "../assets/images/icons/user.png";
+import contact from "../assets/images/icons/contact.png";
 
 const NavBar = () => {
   const [expanded, setExpanded] = useState(false);
@@ -43,13 +51,38 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/" onClick={closeMenu}>
-              Home
+            <Nav.Link as={Link} to="/" onClick={closeMenu} title="Home">
+              <img
+                src={home}
+                alt="Home"
+                className="section-image"
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  borderRadius: "10%",
+                  objectFit: "cover",
+                }}
+              />
             </Nav.Link>
 
-            <NavDropdown title="Sterilizer Project" id="basic-nav-dropdown">
+            <NavDropdown
+              title={
+                <img
+                  src={machine}
+                  alt="Sterilizer Project"
+                  style={{
+                    width: "25px",
+                    height: "25px",
+                    borderRadius: "10%",
+                    objectFit: "cover",
+                  }}
+                />
+              }
+              id="basic-nav-dropdown"
+              titleProps={{ title: "Sterilizer Project" }}
+            >
               <NavDropdown.Item as={Link} to="/gallery" onClick={closeMenu}>
-                About Sterilization
+                About Sterilizer
               </NavDropdown.Item>
 
               <NavDropdown.Item as={Link} to="/steam" onClick={closeMenu}>
@@ -81,28 +114,118 @@ const NavBar = () => {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link as={Link} to="/podcast" onClick={closeMenu}>
-              Podcast Report
+            <Nav.Link
+              as={Link}
+              to="/podcast"
+              onClick={closeMenu}
+              title="Podcast Report"
+            >
+              <img
+                src={podcast}
+                alt="Podcast Report"
+                className="section-image"
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  borderRadius: "10%",
+                  objectFit: "cover",
+                }}
+              />
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/group" onClick={closeMenu}>
-              Group Project
+            <Nav.Link
+              as={Link}
+              to="/group"
+              onClick={closeMenu}
+              title="Group Project"
+            >
+              <img
+                src={group}
+                alt="Group Project"
+                className="section-image"
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  borderRadius: "10%",
+                  objectFit: "cover",
+                }}
+              />
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/instrumentTable" onClick={closeMenu}>
-              Instrument Project
+            <Nav.Link
+              as={Link}
+              to="/instrumentTable"
+              onClick={closeMenu}
+              title="Instrument Project"
+            >
+              <img
+                src={instrument}
+                alt="Instrument Project"
+                className="section-image"
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  borderRadius: "10%",
+                  objectFit: "cover",
+                }}
+              />
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/photo" onClick={closeMenu}>
-              Photos
+            <Nav.Link
+              as={Link}
+              to="/photo"
+              onClick={closeMenu}
+              title="Photo Gallery"
+            >
+              <img
+                src={photo}
+                alt="Photo Gallery"
+                className="section-image"
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  borderRadius: "10%",
+                  objectFit: "cover",
+                }}
+              />
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/about" onClick={closeMenu}>
-              About Me
+            <Nav.Link
+              as={Link}
+              to="/about"
+              onClick={closeMenu}
+              title="About me"
+            >
+              <img
+                src={user}
+                alt="About me"
+                className="section-image"
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  borderRadius: "10%",
+                  objectFit: "cover",
+                }}
+              />
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/contact" onClick={closeMenu}>
-              Contact
+            <Nav.Link
+              as={Link}
+              to="/contact"
+              onClick={closeMenu}
+              title="Contact"
+            >
+              <img
+                src={contact}
+                alt="Contact"
+                className="section-image"
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  borderRadius: "10%",
+                  objectFit: "cover",
+                }}
+              />
             </Nav.Link>
           </Nav>
 

@@ -44,72 +44,37 @@ const Home = () => {
               </Card.Text>
               <PageViewCounter />
               
-              <Card.Text style={{ display: "flex", gap: "15px" }}>
-              <div className="section-bubble nav-link rounded method-link">
-                <Link to="/gallery">
-                  <button
-                    className="rounded custom-btn btn-hover"
-                    style={{
-                      backgroundColor: "#52dcc5",
-                      border: "none",
-                      color: "black",
-                    
-                    }}
-                  >
-                    Sterilization Project
-                  </button>
-                </Link>
-              
-                <Link to="/podcast">
-                  <button
-                    className="rounded custom-btn btn-hover"
-                    style={{
-                      backgroundColor: "#52dcc5",
-                      border: "none",
-                      color: "black",
-                    }}
-                  >
-                    Podcast Report
-                  </button>
-                </Link>
-                <Link to="/group">
-                  <button
-                    className="rounded custom-btn btn-hover"
-                    style={{
-                      backgroundColor: "#52dcc5",
-                      border: "none",
-                      color: "black",
-                    }}
-                  >
-                    Group Project
-                  </button>
-                  </Link>
-                  <Link to="/instrumentTable">
-                  <button
-                    className="rounded custom-btn btn-hover"
-                    style={{
-                      backgroundColor: "#52dcc5",
-                      border: "none",
-                      color: "black",
-                    }}
-                  >
-                    Instrument Project
-                  </button>
-                </Link>
-                <Link to="/photo">
-                  <button
-                    className="rounded custom-btn btn-hover"
-                    style={{
-                      backgroundColor: "#52dcc5",
-                      border: "none",
-                      color: "black",
-                    }}
-                  >
-                    Group Photos
-                  </button>
-                  </Link>
-                  </div>
-                </Card.Text>
+              <div className="button-group">
+  <Link to="/gallery">
+    <button className="rounded custom-btn btn-hover light-btn">
+      Sterilization Project
+    </button>
+  </Link>
+
+  <Link to="/podcast">
+    <button className="rounded custom-btn btn-hover light-btn">
+      Podcast Report
+    </button>
+  </Link>
+
+  <Link to="/group">
+    <button className="rounded custom-btn btn-hover light-btn">
+      Group Project
+    </button>
+  </Link>
+
+  <Link to="/instrumentTable">
+    <button className="rounded custom-btn btn-hover light-btn">
+      Instrument Project
+    </button>
+  </Link>
+
+  <Link to="/photo">
+    <button className="rounded custom-btn btn-hover light-btn">
+      Group Photos
+    </button>
+  </Link>
+</div>
                 
             </div>
           </div>

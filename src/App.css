@@ -128,6 +128,21 @@ body,
   transform: scale(1.1);
 }
 
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;              /* 🔥 spacing between buttons */
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* cleaner button style */
+.light-btn {
+  background-color: rgb(199, 199, 191);
+  border: none;
+  color: black;
+}
+
 
 /* CARDS */
 .card.custom-card {
