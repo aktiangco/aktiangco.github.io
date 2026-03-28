@@ -27,10 +27,33 @@ const Presentation = () => {
     <div>
       <Card className="container ster-card">
         <Card.Body style={{ display: "center", height: "100%" }}>
+        <Card.Text>
+            <div className="section-bubble" style={{ display: "center", height: "500px", justifyContent: "center" }}>
+              <div>
+              <h1>Immediate-Use Steam Sterilizer (IUSS)</h1>
+              </div>
+              <div>
+                <p> and </p>            
+              </div>
+              <div>
+                <h1> Dry Heat Sterilizer</h1>
+              
+              </div>
+              <div>
+                <h4>by Allan Tiangco</h4>
+              
+              </div>
+                <br/>
+              <br />
+              <br/>
+                <br/>
+
+            </div>
+          </Card.Text>
           <Card.Title className="font-weight-bold">
-            <h1 style={{ textDecoration: "underline", color: "#ffffff" }}>
+            <h2 style={{ textDecoration: "underline", color: "#ffffff" }}>
               Immediate-Use Steam Sterilizer (IUSS)
-            </h1>
+            </h2>
           </Card.Title>
           <br />
           <Card.Text>
@@ -46,7 +69,7 @@ const Presentation = () => {
                 }}
               />
               <div style={{ paddingLeft: "10%" }}>
-                <h2>IUSS Sterilization Facts:</h2>
+                <h3>IUSS Sterilization Facts:</h3>
                 <ul>
                   <li>
                     Immediate-Use Steam Sterilization (IUSS) is the current term
@@ -98,10 +121,10 @@ const Presentation = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-                <h2>Cycle</h2>
-                <h4 style={{ textDecoration: "underline" }}>
+                <h3>Cycle</h3>
+                <h5 style={{ textDecoration: "underline" }}>
                   1. Gravity Displacement Cycle
-                </h4>
+                </h5>
                 <ul>
                   <li>
                     <strong>Temperature:</strong> 270°F (132°C)
@@ -116,9 +139,9 @@ const Presentation = () => {
                   </li>
                 </ul>
 
-                <h4 style={{ textDecoration: "underline" }}>
+                <h5 style={{ textDecoration: "underline" }}>
                   2. Dynamic-Air-Removal (Pre-Vacuum) Cycle
-                </h4>
+                </h5>
                 <ul>
                   <li>
                     <strong>Temperature:</strong> 270°F (132°C)
@@ -221,8 +244,8 @@ const Presentation = () => {
                 />
               </div>
               <div style={{ paddingLeft: "10%" }}>
-                <h2>Loading & Unloading</h2>
-                <h4 style={{ textDecoration: "underline" }}>Loading</h4>
+                <h3>Loading & Unloading</h3>
+                <h5 style={{ textDecoration: "underline" }}>Loading</h5>
                 <ul>
                   <li>
                     Items must be thoroughly cleaned and decontaminated before
@@ -238,7 +261,7 @@ const Presentation = () => {
                   </li>
                 </ul>
 
-                <h4 style={{ textDecoration: "underline" }}>Unloading</h4>
+                <h5 style={{ textDecoration: "underline" }}>Unloading</h5>
                 <ul>
                   <li>
                     Allow pressure to return to zero before opening the
@@ -267,7 +290,7 @@ const Presentation = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-                <h2>Wrappers & Containers </h2>
+                <h3>Wrappers & Containers </h3>
 
                 <p>
                   For Immediate-Use Steam Sterilization (IUSS), instruments
@@ -277,9 +300,9 @@ const Presentation = () => {
                   from the sterilizer to the sterile field.
                 </p>
 
-                <h4 style={{ textDecoration: "underline" }}>
+                <h5 style={{ textDecoration: "underline" }}>
                   Types of Rigid Containers
-                </h4>
+                </h5>
                 <ul>
                   <li>
                     <strong>IUSS Sterilization Containers:</strong> Metal trays
@@ -358,7 +381,7 @@ const Presentation = () => {
                 />
               </div>
               <div style={{ paddingLeft: "10%" }}>
-                <h2>Cleaning IUSS Containers</h2>
+                <h3>Cleaning IUSS Containers</h3>
                 <ul>
                   <li>Containers must be cleaned after every use.</li>
                   <li>
@@ -403,8 +426,8 @@ const Presentation = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-                <h2>Pros & Cons</h2>
-                <h4 style={{ textDecoration: "underline" }}>Pros</h4>
+                <h3>Pros & Cons</h3>
+                <h5 style={{ textDecoration: "underline" }}>Pros</h5>
                 <ul>
                   <li>
                     Allows rapid sterilization of instruments when they are
@@ -424,7 +447,7 @@ const Presentation = () => {
                   </li>
                 </ul>
 
-                <h4 style={{ textDecoration: "underline" }}>Cons</h4>
+                <h5 style={{ textDecoration: "underline" }}>Cons</h5>
                 <ul>
                   <li>
                     IUSS should not be used as a substitute for having enough
@@ -448,9 +471,9 @@ const Presentation = () => {
                   </li>
                 </ul>
 
-                <h4 style={{ textDecoration: "underline" }}>
+                <h5 style={{ textDecoration: "underline" }}>
                   Documentation and Joint Commission (JCAHO) Requirements
-                </h4>
+                </h5>
                 <ul>
                   <li>
                     Every IUSS cycle must be documented in a sterilization log.
@@ -530,10 +553,10 @@ const Presentation = () => {
                 />
               </div>
               <div style={{ paddingLeft: "10%" }}>
-                <h2>How to test Sterilizer</h2>
-                <h4 style={{ textDecoration: "underline" }}>
+                <h3>How to test Sterilizer</h3>
+                <h5 style={{ textDecoration: "underline" }}>
                   Physical Monitoring
-                </h4>
+                </h5>
                 <ul>
                   <li>
                     <b>Time, temperature, and pressure</b> must be checked for
@@ -545,9 +568,9 @@ const Presentation = () => {
                   </li>
                 </ul>
 
-                <h4 style={{ textDecoration: "underline" }}>
+                <h5 style={{ textDecoration: "underline" }}>
                   Chemical Indicators
-                </h4>
+                </h5>
                 <ul>
                   <li>
                     Chemical indicators should be placed with the instrument
@@ -562,9 +585,9 @@ const Presentation = () => {
                   </li>
                 </ul>
 
-                <h4 style={{ textDecoration: "underline" }}>
+                <h5 style={{ textDecoration: "underline" }}>
                   Biological Indicators
-                </h4>
+                </h5>
                 <ul>
                   <li>
                     <b>
@@ -584,7 +607,7 @@ const Presentation = () => {
                   </li>
                 </ul>
 
-                <h4 style={{ textDecoration: "underline" }}>Documentation</h4>
+                <h5 style={{ textDecoration: "underline" }}>Documentation</h5>
                 <ul>
                   <li>All IUSS cycles must be documented.</li>
                   <li>
@@ -600,9 +623,9 @@ const Presentation = () => {
             </div>
           </Card.Text>
           <Card.Title className="font-weight-bold">
-            <h1 style={{ textDecoration: "underline", color: "#ffffff" }}>
+            <h2 style={{ textDecoration: "underline", color: "#ffffff" }}>
               Dry Heat Sterilizer
-            </h1>
+            </h2>
           </Card.Title>
           <br />
           <Card.Text>
@@ -618,7 +641,7 @@ const Presentation = () => {
                 }}
               />
               <div style={{ paddingLeft: "10%" }}>
-                <h2>Dry Heat Sterilization Facts</h2>
+                <h3>Dry Heat Sterilization Facts</h3>
                 <ul>
                   <li>
                     Uses high temperatures without steam to kill microorganisms
@@ -644,7 +667,7 @@ const Presentation = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-                <h2>Cycle</h2>
+                <h3>Cycle</h3>
                 <ul>
                   <li>
                     Dry heat is less efficient than steam sterilization, so it
@@ -671,9 +694,9 @@ const Presentation = () => {
                   </li>
                 </ul>
 
-                <h4 style={{ textDecoration: "underline" }}>
+                <h5 style={{ textDecoration: "underline" }}>
                   Types of Cycles:
-                </h4>
+                </h5>
                 <ul>
                   <li>
                     <strong>Gravity Cycle:</strong> Heat moves naturally from
@@ -760,8 +783,8 @@ const Presentation = () => {
                 />
               </div>
               <div style={{ paddingLeft: "10%" }}>
-                <h2>Loading & Unloading</h2>
-                <h4 style={{ textDecoration: "underline" }}>Loading:</h4>
+                <h3>Loading & Unloading</h3>
+                <h5 style={{ textDecoration: "underline" }}>Loading:</h5>
                 <ul>
                   <li>
                     Items must be thoroughly cleaned and completely dry before
@@ -786,7 +809,7 @@ const Presentation = () => {
                   </li>
                 </ul>
 
-                <h4 style={{ textDecoration: "underline" }}>Unloading:</h4>
+                <h5 style={{ textDecoration: "underline" }}>Unloading:</h5>
                 <ul>
                   <li>
                     <b>
@@ -824,7 +847,7 @@ const Presentation = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-                <h2>Containers</h2>
+                <h3>Containers</h3>
                 <ul>
                   <li>
                     Use only heat-resistant materials that can withstand high
@@ -894,8 +917,8 @@ const Presentation = () => {
                 }}
               />
               <div style={{ paddingLeft: "10%" }}>
-                <h2>Pros & Cons</h2>
-                <h4 style={{ textDecoration: "underline" }}>Pros:</h4>
+                <h3>Pros & Cons</h3>
+                <h5 style={{ textDecoration: "underline" }}>Pros:</h5>
                 <ul>
                   <li>
                     Effective for items that cannot tolerate moisture (oils,
@@ -909,7 +932,7 @@ const Presentation = () => {
                   <li>Can penetrate materials like oils that steam cannot</li>
                 </ul>
 
-                <h4 style={{ textDecoration: "underline" }}>Cons:</h4>
+                <h5 style={{ textDecoration: "underline" }}>Cons:</h5>
                 <ul>
                   <li>
                     Requires higher temperatures and longer exposure times than
@@ -939,10 +962,10 @@ const Presentation = () => {
           <Card.Text>
             <div className="section-bubble">
               <div>
-                <h2>How to test Sterilizer</h2>
-                <h4 style={{ textDecoration: "underline" }}>
+                <h3>How to test Sterilizer</h3>
+                <h5 style={{ textDecoration: "underline" }}>
                   Physical Monitoring
-                </h4>
+                </h5>
                 <ul>
                   <li>Time and temperature must be checked for every cycle</li>
                   <li>
@@ -950,18 +973,18 @@ const Presentation = () => {
                   </li>
                 </ul>
 
-                <h4 style={{ textDecoration: "underline" }}>
+                <h5 style={{ textDecoration: "underline" }}>
                   Chemical Indicators
-                </h4>
+                </h5>
                 <ul>
                   <li>Placed with each load</li>
                   <li>Changes color when proper conditions are reached</li>
                   <li>Must be checked before items are used</li>
                 </ul>
 
-                <h4 style={{ textDecoration: "underline" }}>
+                <h5 style={{ textDecoration: "underline" }}>
                   Biological Indicators
-                </h4>
+                </h5>
                 <ul>
                   <li>
                     <b>
@@ -973,7 +996,7 @@ const Presentation = () => {
                   <li>No growth = successful sterilization</li>
                 </ul>
 
-                <h4 style={{ textDecoration: "underline" }}>Documentation</h4>
+                <h5 style={{ textDecoration: "underline" }}>Documentation</h5>
                 <ul>
                   <li>All cycles must be recorded</li>
                   <li>

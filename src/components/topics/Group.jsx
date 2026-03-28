@@ -58,7 +58,7 @@ const Group = () => {
                 <h2>Steam Sterilizer</h2>
                 <h5>Alcala, Eric</h5>
                 <a
-                  href="https://aktiangco.github.io/medtek/#/error" // update link here
+                  href="https://docs.google.com/presentation/d/1v2-m1Ke0g0wbDJZ7iPnhhc695gLvXBL3euVA55bq98o/edit?usp=drivesdk" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn btn-hover"
@@ -164,7 +164,7 @@ const Group = () => {
                 <h2>Low-Temperature Hydrogen Peroxide(V-Pro)</h2>
                 <h4>Trejo, Cesar</h4>
                 <a
-                  href="https://aktiangco.github.io/medtek/#/error" // update link here
+                  href="https://docs.google.com/presentation/d/1Ujjyy-QDzWBl0g_FJurQU5KQHa7aZr7J7Y7LBw6Hjh8/edit?slide=id.p1#slide=id.p1" // update link here
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded custom-btn btn-hover"
