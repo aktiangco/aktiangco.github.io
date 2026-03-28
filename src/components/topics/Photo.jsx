@@ -5,7 +5,7 @@ import Carousel from "react-bootstrap/Carousel";
 function Photo() {
   const photos = useMemo(() => {
     return Array.from(
-      { length: 45 },
+      { length: 54 },
       (_, i) => `${process.env.PUBLIC_URL}/images/${i + 1}.png`
     ).sort(() => Math.random() - 0.5);
   }, []);
