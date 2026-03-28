@@ -57,16 +57,19 @@ const NavBar = () => {
             </Nav.Link>
 
             <NavDropdown
-
+              className="nav-dropdown-icon"
               title={
                 <div className="nav-icon">
-                  <img src={machine} alt="Sterilizer Project" className="nav-img" />
+                  <img
+                    src={machine}
+                    alt="Sterilizer Project"
+                    className="nav-img"
+                  />
                   <span className="nav-label">Sterilizer Project</span>
                 </div>
               }
               id="basic-nav-dropdown"
             >
-            
               <NavDropdown.Item as={Link} to="/gallery" onClick={closeMenu}>
                 About Sterilizer
               </NavDropdown.Item>
@@ -100,36 +103,69 @@ const NavBar = () => {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link as={Link} to="/podcast" onClick={closeMenu} className="nav-icon">
+            <Nav.Link
+              as={Link}
+              to="/podcast"
+              onClick={closeMenu}
+              className="nav-icon"
+            >
               <img src={podcast} alt="Podcast Report" className="nav-img" />
               <span className="nav-label">Podcast Report</span>
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/group" onClick={closeMenu} className="nav-icon">
+            <Nav.Link
+              as={Link}
+              to="/group"
+              onClick={closeMenu}
+              className="nav-icon"
+            >
               <img src={group} alt="Group Project" className="nav-img" />
               <span className="nav-label">Group Project</span>
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/instrumentTable" onClick={closeMenu} className="nav-icon">
-              <img src={instrument} alt="Instrument Project" className="nav-img" />
+            <Nav.Link
+              as={Link}
+              to="/instrumentTable"
+              onClick={closeMenu}
+              className="nav-icon"
+            >
+              <img
+                src={instrument}
+                alt="Instrument Project"
+                className="nav-img"
+              />
               <span className="nav-label">Instrument Project</span>
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/photo" onClick={closeMenu} className="nav-icon">
+            <Nav.Link
+              as={Link}
+              to="/photo"
+              onClick={closeMenu}
+              className="nav-icon"
+            >
               <img src={photo} alt="Photo Gallery" className="nav-img" />
               <span className="nav-label">Photo Gallery</span>
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/about" onClick={closeMenu} className="nav-icon">
+            <Nav.Link
+              as={Link}
+              to="/about"
+              onClick={closeMenu}
+              className="nav-icon"
+            >
               <img src={user} alt="About me" className="nav-img" />
               <span className="nav-label">About me</span>
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/contact" onClick={closeMenu} className="nav-icon">
+            <Nav.Link
+              as={Link}
+              to="/contact"
+              onClick={closeMenu}
+              className="nav-icon"
+            >
               <img src={contact} alt="Contact me" className="nav-img" />
               <span className="nav-label">Contact me</span>
             </Nav.Link>
-          
           </Nav>
 
           <div className="ms-auto d-flex align-items-center">
